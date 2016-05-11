@@ -19,7 +19,7 @@
     color: #3e89b5;
 
     &.pending {
-      background-image: icon(clock, #3e89b5);
+      background-image: icon(clock, '%233e89b5');
     }
   }
   &.green {
@@ -27,7 +27,7 @@
     color: #4d684b;
 
     &.pending {
-      background-image: icon(clock, #4d684b);
+      background-image: icon(clock, '%234d684b');
     }
   }
   &.yellow {
@@ -35,7 +35,7 @@
     color: #6f4f26;
 
     &.pending {
-      background-image: icon(clock, #6f4f26);
+      background-image: icon(clock, '%236f4f26');
     }
   }
   &.red {
@@ -43,7 +43,7 @@
     color: #8c2929;
 
     &.pending {
-      background-image: icon(clock, #8c2929);
+      background-image: icon(clock, '%238c2929');
     }
   }
   &.grey {
@@ -51,7 +51,7 @@
     color: #798c9c;
 
     &.pending {
-      background-image: icon(clock, #798c9c);
+      background-image: icon(clock, '%23798c9c');
     }
   }
   &.lightblue {
@@ -59,7 +59,7 @@
     color: #647f9e;
 
     &.pending {
-      background-image: icon(clock, #647f9e);
+      background-image: icon(clock, '%23647f9e');
     }
   }
   &.orange {
@@ -67,7 +67,7 @@
     color: #7f3a07;
 
     &.pending {
-      background-image: icon(clock, #7f3a07);
+      background-image: icon(clock, '%237f3a07');
     }
   }
   &.remove,

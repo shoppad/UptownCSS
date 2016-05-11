@@ -50,163 +50,163 @@
   background-size: cover;
 
   &.icon-prev {
-    background-image: icon(chevron-left, #329ECC);
+    background-image: icon(chevron-left, '%23329ecc');
 
     &.disabled, &:disabled {
-      background-image: icon(chevron-left, #c3cfd8);
+      background-image: icon(chevron-left, '%23c3cfd8');
     }
   }
   &.icon-next {
-    background-image: icon(chevron-right, #329ECC);
+    background-image: icon(chevron-right, '%23329ecc');
 
     &.disabled, &:disabled {
-      background-image: icon(chevron-right, #c3cfd8);
+      background-image: icon(chevron-right, '%23c3cfd8');
     }
   }
   &.icon-trash {
-    background-image: icon(trash, #329ECC);
+    background-image: icon(trash, '%23329ecc');
 
     &.disabled, &:disabled {
-      background-image: icon(trash, #c3cfd8);
+      background-image: icon(trash, '%23c3cfd8');
     }
   }
   &.icon-clock {
-    background-image: icon(clock, #329ECC);
+    background-image: icon(clock, '%23329ecc');
 
     &.disabled, &:disabled {
-      background-image: icon(clock, #c3cfd8);
+      background-image: icon(clock, '%23c3cfd8');
     }
   }
   &.icon-close {
-    background-image: icon(close, #329ECC);
+    background-image: icon(close, '%23329ecc');
 
     &.disabled, &:disabled {
-      background-image: icon(close, #c3cfd8);
+      background-image: icon(close, '%23c3cfd8');
     }
   }
   &.icon-checkmark {
-    background-image: icon(checkmark, #329ECC);
+    background-image: icon(checkmark, '%23329ecc');
 
     &.disabled, &:disabled {
-      background-image: icon(checkmark, #c3cfd8);
+      background-image: icon(checkmark, '%23c3cfd8');
     }
   }
   &.icon-search {
-    background-image: icon(search, #329ECC);
+    background-image: icon(search, '%23329ecc');
 
     &.disabled, &:disabled {
-      background-image: icon(search, #c3cfd8);
+      background-image: icon(search, '%23c3cfd8');
     }
   }
   &.icon-flag {
-    background-image: icon(flag, #329ECC);
+    background-image: icon(flag, '%23329ecc');
 
     &.disabled, &:disabled {
-      background-image: icon(flag, #c3cfd8);
+      background-image: icon(flag, '%23c3cfd8');
     }
   }
   &.icon-bell {
-    background-image: icon(bell, #329ECC);
+    background-image: icon(bell, '%23329ecc');
 
     &.disabled, &:disabled {
-      background-image: icon(bell, #c3cfd8);
+      background-image: icon(bell, '%23c3cfd8');
     }
   }
   &.icon-exclamation {
-    background-image: icon(exclamation, #329ECC);
+    background-image: icon(exclamation, '%23329ecc');
 
     &.disabled, &:disabled {
-      background-image: icon(exclamation, #c3cfd8);
+      background-image: icon(exclamation, '%23c3cfd8');
     }
   }
   &.icon-question {
-    background-image: icon(question, #329ECC);
+    background-image: icon(question, '%23329ecc');
 
     &.disabled, &:disabled {
-      background-image: icon(question, #c3cfd8);
+      background-image: icon(question, '%23c3cfd8');
     }
   }
   &.icon-prohibit {
-    background-image: icon(prohibit, #329ECC);
+    background-image: icon(prohibit, '%23329ecc');
 
     &.disabled, &:disabled {
-      background-image: icon(prohibit, #c3cfd8);
+      background-image: icon(prohibit, '%23c3cfd8');
     }
   }
   &.icon-product {
-    background-image: icon(product, #329ECC);
+    background-image: icon(product, '%23329ecc');
 
     &.disabled, &:disabled {
-      background-image: icon(product, #c3cfd8);
+      background-image: icon(product, '%23c3cfd8');
     }
   }
   &.icon-preview {
-    background-image: icon(preview, #329ECC);
+    background-image: icon(preview, '%23329ecc');
 
     &.disabled, &:disabled {
-      background-image: icon(preview, #c3cfd8);
+      background-image: icon(preview, '%23c3cfd8');
     }
   }
   &.icon-edit {
-    background-image: icon(edit, #329ECC);
+    background-image: icon(edit, '%23329ecc');
 
     &.disabled, &:disabled {
-      background-image: icon(edit, #c3cfd8);
+      background-image: icon(edit, '%23c3cfd8');
     }
   }
   &.icon-addition {
-    background-image: icon(addition, #329ECC);
+    background-image: icon(addition, '%23329ecc');
 
     &.disabled, &:disabled {
-      background-image: icon(addition, #c3cfd8);
+      background-image: icon(addition, '%23c3cfd8');
     }
   }
   &.icon-subtraction {
-    background-image: icon(subtraction, #329ECC);
+    background-image: icon(subtraction, '%23329ecc');
 
     &.disabled, &:disabled {
-      background-image: icon(subtraction, #c3cfd8);
+      background-image: icon(subtraction, '%23c3cfd8');
     }
   }
   &.icon-calendar {
-    background-image: icon(calendar, #329ECC);
+    background-image: icon(calendar, '%23329ecc');
 
     &.disabled, &:disabled {
-      background-image: icon(calendar, #c3cfd8);
+      background-image: icon(calendar, '%23c3cfd8');
     }
   }
   &.icon-addcircle {
-    background-image: icon(add-circle, #329ECC);
+    background-image: icon(add-circle, '%23329ecc');
 
     &.disabled, &:disabled {
-      background-image: icon(add-circle, #c3cfd8);
+      background-image: icon(add-circle, '%23c3cfd8');
     }
   }
   &.icon-orders {
-    background-image: icon(orders, #329ECC);
+    background-image: icon(orders, '%23329ecc');
 
     &.disabled, &:disabled {
-      background-image: icon(orders, #c3cfd8);
+      background-image: icon(orders, '%23c3cfd8');
     }
   }
   &.icon-photos {
-    background-image: icon(photos, #329ECC);
+    background-image: icon(photos, '%23329ecc');
     width: 6.4rem;
     height: 6.4rem;
     background-size: 6.4rem 6.4rem;
 
     &.disabled, &:disabled {
-      background-image: icon(photos, #c3cfd8);
+      background-image: icon(photos, '%23c3cfd8');
     }
   }
   &.icon-profile {
-    background-image: icon(profile, #329ECC);
+    background-image: icon(profile, '%23329ecc');
     width: 6.4rem;
     height: 6.4rem;
     background-size: 6.4rem 6.4rem;
 
     &.disabled, &:disabled {
-      background-image: icon(profile, #c3cfd8);
+      background-image: icon(profile, '%23c3cfd8');
     }
   }
 }

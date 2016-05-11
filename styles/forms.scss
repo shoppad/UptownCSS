@@ -43,7 +43,7 @@ select {
   }
   &[type=search] {
     padding-left: 3.0rem;
-    background-image: icon(search, #95a7b7);
+    background-image: icon(search, '%2395a7b7');
     background-repeat: no-repeat;
     background-size: 1.8rem 1.8rem;
     background-position: top .6rem left .6rem;
@@ -66,7 +66,7 @@ select {
 select {
   padding-right: 3.2rem; 
   background-size: 1.2rem 1.2rem;
-  background-image: icon(chevron-down, #798c9c);
+  background-image: icon(chevron-down, '%23798c9c');
   background-repeat: no-repeat;
   background-position: right 1.0rem top 1.0rem;
 
@@ -124,12 +124,12 @@ input[type="checkbox"] {
   border-radius: .1rem;
 
   &:disabled:checked:after {
-    background-image: icon(checkmark, #c3cfd8);
+    background-image: icon(checkmark, '%23c3cfd8');
   }
   &:checked:after {
     width: 1.2rem;
     height: 1.2rem;
-    background-image: icon(checkmark, #479ccf);
+    background-image: icon(checkmark, '%23479ccf');
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
