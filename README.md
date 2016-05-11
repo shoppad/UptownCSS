@@ -11,4 +11,6 @@ Documentation
 ---------------------
 Visit http://www.uptowncss.com for complete documentation and examples
 
-Built by [ShopPad Inc.](http://www.theshoppad.com) released under the [MIT License](LICENSE).
+Copyright & License
+---------------------
+Code and documentation copyright 2016 [ShopPad Inc.](http://www.theshoppad.com) Code released under the [MIT License](LICENSE).
