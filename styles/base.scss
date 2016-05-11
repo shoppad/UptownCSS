@@ -1,0 +1,194 @@
+/* Base Styles
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+/* NOTE
+html is set to 62.5% so that all the REM measurements throughout Skeleton
+are based on 10px sizing. So basically 1.5rem = 15px :) */
+
+html {
+  height: 100%;
+  font-size: 62.5%;
+}
+body {
+  box-sizing: border-box;
+  height: 100%;
+  font-size: 1.3em;
+  line-height: 1.6;
+  font-weight: 400;
+  font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #31373d;
+  background-color: #ebeef0; 
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  fill: currentColor;
+}
+p {
+  margin-top: 0;
+}
+em {
+  font-style: italic;
+  font-size: 90%;
+  color: #95a7b7;
+  margin-top: .5rem;
+}
+hr {
+  margin: 0;
+  border-width: 0;
+  border-collapse: collapse;
+  border-top: .1rem solid #ebeef0;
+}
+a {
+  text-decoration: none;
+  color: #479ccf;
+  cursor: pointer; 
+  
+  &:hover {
+    color: #4293c2;
+    text-decoration: underline;
+  }
+}
+svg,
+path {
+  fill: currentColor;
+}
+::-webkit-scrollbar {
+    display: none !important;
+    width: 10px !important;
+    height: 0 !important;
+}
+::-webkit-scrollbar-thumb {
+    background-color: rgba(0,0,0,0);
+}
+
+
+/* Lists
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+ul {
+  list-style: disc outside;
+}
+ol {
+  list-style: decimal outside;
+}
+ol, ul {
+  padding-left: 0;
+  margin-top: 0; 
+  margin-left: 2.0rem;
+  margin-bottom: 0;
+}
+ul ul,
+ul ol,
+ol ol,
+ol ul {
+  margin: 0 0 0 3rem;
+}
+
+
+/* Code
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+code {
+  padding: .2rem .5rem;
+  margin: 0 .2rem;
+  white-space: nowrap;
+  background: #F1F1F1;
+  border: .1rem solid #E1E1E1;
+  border-radius: .4rem;
+}
+pre > code {
+  display: block;
+  padding: 1rem 1.5rem;
+}
+
+
+main {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  box-sizing: border-box; 
+}
+section {
+  @include display(flex);
+  @include align-items(stretch);
+  @include flex-direction(column);
+  width: 100%;
+  max-width: 1036px;
+  text-align: left;
+  margin: 0 auto;
+  
+  @media (min-width: 550px) {
+    @include flex-direction(row);
+  }
+  &+section {
+    padding-top: 2rem;
+    border-top: .1rem solid #d3dbe2;
+  }
+  aside {
+    @include flex(1);
+    padding: 0 2.0rem;
+    box-sizing: border-box;
+
+    @media (min-width: 550px) {
+      @include flex(1 0 24.0rem);
+    }
+    h2 {
+      color: #31373d;
+      margin: 0 0 2.0rem 0;
+      font-weight: 400;
+      font-size: 1.8rem;
+      line-height: 1.2em;
+    }
+    p {
+      color: #798c9c;
+      line-height: 1.4;
+    }
+  }
+  article {
+    @include display(flex);
+    @include flex(1);
+    @include flex-direction(column);
+    margin: 0 2.0rem;
+
+    @media (min-width: 550px) {
+      @include flex(2 1 48.0rem);
+      @include flex-direction(row);
+    }
+  }
+  .card {
+    display: inline-block;
+    width: 100%;
+    border-radius: .3rem;
+    box-shadow: 0 .2rem .4rem rgba(0,0,0,0.1);
+    color: #31373d;
+    box-sizing: border-box;
+    margin-bottom: 2.0rem;
+    padding: 2.0rem;
+    background-color: #ffffff;
+
+    &.secondary {
+      background-color: #f5f6f7;
+    }
+    &.has-sections {
+      padding: 0;
+    }
+    .card-section {
+      padding: 2.0rem;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-bottom: 0;
+    }
+    p {
+      color: #95a7b7;
+    }
+  }
+}
+
+
+/* Clearing
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+/* Self Clearing Goodness */
+main:after,
+.row:after,
+.cf {
+  content: "";
+  display: table;
+  clear: both;
+}

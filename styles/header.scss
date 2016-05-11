@@ -1,0 +1,32 @@
+/* Header
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+header {
+  @include display(flex);
+  @include align-items(center);
+  @include flex-direction(column);
+  position: relative;
+  width: 100%;
+  min-height: 20.0rem;
+  text-align: center;
+  background-color: #ddd;
+  padding-top: 4.5rem;
+  box-sizing: border-box;
+
+  h1 {
+    font-size: 3.2rem;
+    font-weight: 300;
+    line-height: 1.2em;
+    margin: 0 1.0rem 1.0rem 1.0rem;
+  }
+  h2 {
+    font-size: 1.8rem;
+    line-height: 1.2em;
+    margin: 0 1.0rem;
+  }
+
+  &+ section {
+    position: relative;
+    margin-top: -4.4rem;
+    z-index: 2;
+  }
+}

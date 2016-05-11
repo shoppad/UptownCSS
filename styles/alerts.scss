@@ -1,0 +1,113 @@
+/* Notice Banners
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.alert {
+  @include display(flex);
+  @include align-items(center);
+  @include flex-direction(column);
+  position: relative;
+  box-sizing: border-box;
+  padding: 1.5rem;
+  color: #31373d;
+  margin-bottom: 2.0rem;
+  padding-left: 6.0rem;
+  background-color: #d3dbe2;
+  border: .1rem solid rgba(0, 0, 0, 0.1);
+  border-radius: .3rem;
+  background-image: icon(flag, #798c9c);
+  background-repeat: no-repeat;
+  background-size: 2.4rem 2.4rem;
+  background-position: 1.8rem 1.5rem;
+  text-align: left;
+
+  @media (min-width: 550px) {
+    @include flex-direction(row);
+  }
+
+  .close {
+    position: absolute;
+    top: 1.0rem;
+    right: 1.0rem;
+    opacity: .25;
+    width: 1.2rem;
+    height: 1.2rem;
+    background-image: icon(close, #000000);
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    &:hover {
+      opacity: .5;
+    }
+  }
+  &.notice {
+    background-color: #cae9f7;
+    background-image: icon(flag, #4fb0e8);
+  }
+  &.notification {
+    background-color: #fff7b2;
+    background-image: icon(bell, #d4a002);
+  }
+  &.success {
+    background-color: #e5fabc;
+    background-image: icon(checkmark, #7ba232);
+  }
+  &.warning {
+    background-color: #fff7b2;
+    background-image: icon(exclamation, #d4a002);
+  }
+  &.error {
+    background-color: #ff9797;
+    background-image: icon(prohibit, #d83e3e);
+  }
+  dl {
+    @include flex(1 1 auto);
+    width: 100%;
+    margin: 0;
+
+    @media (min-width: 55.0rem) {
+      margin-right: 2.0rem;
+    }
+    
+    dt {
+      font-size: 100%;
+      margin: 0;
+    }
+    dd {
+      line-height: 1.4;
+      color: rgba(49,55,61,.85);
+      margin: 1.0rem 0 0 0;
+    }
+  }
+  a {
+    color: #31373d;
+    text-decoration: underline;
+    
+    &:hover {
+      color: rgba(49,55,61,.85);
+      text-decoration: none;
+    }
+  }
+  .button,
+  button,
+  input[type="submit"],
+  input[type="reset"],
+  input[type="button"] {
+    color: #31373d;
+    text-decoration: none;
+    border-color: #31373d;
+    background: transparent;
+    width: 100%;
+    margin-top: 2.0rem;
+
+    @media (min-width: 550px) {
+      width: auto;
+      margin-top: 0;
+    }
+    
+    &:hover,
+    &:focus {
+      background-color: rgba(49, 55, 61, 0.1);
+      border-color: rgba(49,55,61,.85);
+      color: rgba(49,55,61,.85) !important;
+    }
+  }
+}

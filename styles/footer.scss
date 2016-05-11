@@ -1,0 +1,32 @@
+/* Footer
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+footer {
+  margin: 4.0rem 0;
+  text-align: center;
+  width: 100%;
+
+  .help {
+    @include align-items(center);
+    @include display(inline-flex);
+    border: 0.1rem solid #d3dbe2;
+    border-radius: 0.3rem;
+    color: #798c9c;
+    margin: 0 2.0rem 2.0rem 2.0rem;
+    padding: 2.0rem;
+
+    span {
+      min-width: 3.6rem;
+      min-height: 3.6rem;
+      border-radius: 50%;
+      background-color: #479ccf;
+      margin-right: 2.5rem;
+      background-image: icon(question, #ebeef0);
+      background-size: 2.4rem 2.4rem;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+    p {
+      margin: 0;
+    }
+  }
+}

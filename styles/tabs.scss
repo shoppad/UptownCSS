@@ -1,0 +1,58 @@
+/* Tabs
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.tabs {
+  @include display(flex);
+  @include flex-wrap(nowrap);
+  background-color: #f5f6f7;
+  border-radius: .3rem .3rem 0 0;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  white-space: nowrap;
+  box-shadow: inset 0 -.1rem 0 #ebeef0;
+
+  li {
+    @include flex(0 0 auto);
+
+    a {
+      display: inline-block;
+      padding: 1.5rem 2.0rem;
+      border-right: .1rem solid #ebeef0;
+      border-bottom: .1rem solid #ebeef0;
+      text-align: center;
+      line-height: 1;
+      cursor: pointer;
+      position: relative;
+      font-size: 1.3rem;
+      white-space: nowrap;
+
+      &:hover {
+        outline: none;
+        background-color: #fafbfc;
+        color: #479ccf;
+        text-decoration: none;
+      }
+      &:first-child {
+        border-top-left-radius: .3rem;
+      }
+    }
+
+    &.active,
+    &:first-child:last-child {
+
+      a {
+        background-color: #fff;
+        color: #31373d;
+        border-bottom-color: #fff;
+        cursor: default;
+        text-decoration: none;
+      }
+    }
+    &.active:first-child a {
+      border-top-left-radius: .3rem;
+    }
+    &.active:last-child a {
+      border-top-right-radius: .3rem;
+    }
+  }
+}

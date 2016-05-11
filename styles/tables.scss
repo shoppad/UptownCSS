@@ -1,0 +1,104 @@
+/* Tables
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+table {
+  width: 100%; 
+
+  tbody {
+
+    tr {
+
+      &:hover {
+        background: #eff9fd; 
+      }
+      &:last-child {
+
+        td {
+          border-bottom-width: 0;
+        }
+      }
+    }
+  }
+  th,
+  td {
+    padding: 1.2rem 1.5rem;
+    text-align: left;
+    border-bottom: .1rem solid #E1E1E1; 
+  }
+  th {
+    font-weight: normal;
+
+    &:hover {
+      color: #479ccf;
+      background: #eff9fd;
+      cursor: pointer;
+    }
+    &:empty:hover {
+      background: transparent;
+      color: inherit;
+      cursor: default;
+    }
+  }
+
+  &.results {
+
+    tr {
+
+      th {
+        border-color: #ebeef0;
+      }
+      td {
+        padding-top: .8rem;
+        padding-bottom: .8rem;
+        border-color: #ebeef0;
+      }
+    }
+  }
+  &.summary {
+
+    th {
+      padding: 0;
+      border: 0;
+      font-size: 2.4rem;
+
+      span {
+        float: right;
+        color: #95a7b7;
+        font-size: 1.2rem;
+        margin-top: 1rem;
+      }
+    }
+
+    tr {
+
+      &:hover {
+        background-color: transparent;
+      }
+      td {
+        padding: .4rem 0;
+        border: 0;
+
+        &:first-child {
+          width: 67%;
+        }
+        &:last-child {
+          text-align: right;
+          color: #95a7b7;
+        }
+      }
+    }
+  }
+}
+
+
+/* Pagination
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.pagination {
+  width: 100%;
+  text-align: center;
+  margin-top: 2.0rem;
+
+  .button-group {
+    display: inline-block;
+    margin: 0;
+  }
+}

@@ -1,0 +1,33 @@
+/* Zero State
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.zero-state {
+  padding-top: 56px;
+  text-align: center;
+  box-sizing: border-box;
+  min-height: 400px;
+
+  h2 {
+    width: 100%;
+    font-size: 32px;
+    font-weight: normal;
+    margin-bottom: 16px;
+    color: #31373d;
+  }
+  h2+h6 {
+    width: 100%;
+    font-size: 18px;
+    line-height: 1.4;
+    margin-bottom: 56px;
+    color: #798c9c;
+    margin-bottom: 56px;
+  }
+  article {
+    display: block;
+
+    @media (min-width: 550px) {
+      button {
+        width: auto;
+      }
+    }
+  }
+}
