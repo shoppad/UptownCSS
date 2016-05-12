@@ -43,7 +43,7 @@ select {
   }
   &[type=search] {
     padding-left: 3.0rem;
-    background-image: icon(search, '%2395a7b7');
+    background-image: icon(search, 'rgb(149,167,183)');
     background-repeat: no-repeat;
     background-size: 1.8rem 1.8rem;
     background-position: top .6rem left .6rem;
@@ -64,9 +64,10 @@ select {
   @include appearance(none);
 }
 select {
+  min-height: 3.4rem;
   padding-right: 3.2rem; 
   background-size: 1.2rem 1.2rem;
-  background-image: icon(chevron-down, '%23798c9c');
+  background-image: icon(chevron-down, 'rgb(121,140,156)');
   background-repeat: no-repeat;
   background-position: right 1.0rem top 1.0rem;
 
@@ -124,12 +125,12 @@ input[type="checkbox"] {
   border-radius: .1rem;
 
   &:disabled:checked:after {
-    background-image: icon(checkmark, '%23c3cfd8');
+    background-image: icon(checkmark, 'rgb(195,207,216)');
   }
   &:checked:after {
     width: 1.2rem;
     height: 1.2rem;
-    background-image: icon(checkmark, '%23479ccf');
+    background-image: icon(checkmark, 'rgb(71,156,207)');
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;

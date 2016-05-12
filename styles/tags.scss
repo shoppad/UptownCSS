@@ -1,6 +1,7 @@
 /* Tags
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .tag {
+  position: relative;
   display: inline-block;
   border-radius: .3rem;
   margin-right: .5rem;
@@ -19,7 +20,7 @@
     color: #3e89b5;
 
     &.pending {
-      background-image: icon(clock, '%233e89b5');
+      background-image: icon(clock, 'rgb(62,137,181)');
     }
   }
   &.green {
@@ -27,7 +28,7 @@
     color: #4d684b;
 
     &.pending {
-      background-image: icon(clock, '%234d684b');
+      background-image: icon(clock, 'rgb(77,104,75)');
     }
   }
   &.yellow {
@@ -35,7 +36,7 @@
     color: #6f4f26;
 
     &.pending {
-      background-image: icon(clock, '%236f4f26');
+      background-image: icon(clock, 'rgb(111,79,38)');
     }
   }
   &.red {
@@ -43,7 +44,7 @@
     color: #8c2929;
 
     &.pending {
-      background-image: icon(clock, '%238c2929');
+      background-image: icon(clock, 'rgb(140,41,41)');
     }
   }
   &.grey {
@@ -51,7 +52,7 @@
     color: #798c9c;
 
     &.pending {
-      background-image: icon(clock, '%23798c9c');
+      background-image: icon(clock, 'rgb(121,140,156)');
     }
   }
   &.lightblue {
@@ -59,7 +60,7 @@
     color: #647f9e;
 
     &.pending {
-      background-image: icon(clock, '%23647f9e');
+      background-image: icon(clock, 'rgb(100,127,158)');
     }
   }
   &.orange {
@@ -67,17 +68,19 @@
     color: #7f3a07;
 
     &.pending {
-      background-image: icon(clock, '%237f3a07');
+      background-image: icon(clock, 'rgb(127,58,7)');
     }
   }
   &.remove,
   &.collapsable {
     white-space: nowrap;
     padding-left: 1.0rem;
-    padding-right: 0;
+    padding-right: 3.5rem;
 
     a {
-      float: right;
+      position: absolute;
+      top: 0;
+      right: 0;
       width: .9rem; 
       height: 2.5rem;
       margin: .1rem;

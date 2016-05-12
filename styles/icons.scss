@@ -50,163 +50,163 @@
   background-size: cover;
 
   &.icon-prev {
-    background-image: icon(chevron-left, '%23329ecc');
+    background-image: icon(chevron-left, 'rgb(50,158,204)');
 
     &.disabled, &:disabled {
-      background-image: icon(chevron-left, '%23c3cfd8');
+      background-image: icon(chevron-left, 'rgb(195,207,216)');
     }
   }
   &.icon-next {
-    background-image: icon(chevron-right, '%23329ecc');
+    background-image: icon(chevron-right, 'rgb(50,158,204)');
 
     &.disabled, &:disabled {
-      background-image: icon(chevron-right, '%23c3cfd8');
+      background-image: icon(chevron-right, 'rgb(195,207,216)');
     }
   }
   &.icon-trash {
-    background-image: icon(trash, '%23329ecc');
+    background-image: icon(trash, 'rgb(50,158,204)');
 
     &.disabled, &:disabled {
-      background-image: icon(trash, '%23c3cfd8');
+      background-image: icon(trash, 'rgb(195,207,216)');
     }
   }
   &.icon-clock {
-    background-image: icon(clock, '%23329ecc');
+    background-image: icon(clock, 'rgb(50,158,204)');
 
     &.disabled, &:disabled {
-      background-image: icon(clock, '%23c3cfd8');
+      background-image: icon(clock, 'rgb(195,207,216)');
     }
   }
   &.icon-close {
-    background-image: icon(close, '%23329ecc');
+    background-image: icon(close, 'rgb(50,158,204)');
 
     &.disabled, &:disabled {
-      background-image: icon(close, '%23c3cfd8');
+      background-image: icon(close, 'rgb(195,207,216)');
     }
   }
   &.icon-checkmark {
-    background-image: icon(checkmark, '%23329ecc');
+    background-image: icon(checkmark, 'rgb(50,158,204)');
 
     &.disabled, &:disabled {
-      background-image: icon(checkmark, '%23c3cfd8');
+      background-image: icon(checkmark, 'rgb(195,207,216)');
     }
   }
   &.icon-search {
-    background-image: icon(search, '%23329ecc');
+    background-image: icon(search, 'rgb(50,158,204)');
 
     &.disabled, &:disabled {
-      background-image: icon(search, '%23c3cfd8');
+      background-image: icon(search, 'rgb(195,207,216)');
     }
   }
   &.icon-flag {
-    background-image: icon(flag, '%23329ecc');
+    background-image: icon(flag, 'rgb(50,158,204)');
 
     &.disabled, &:disabled {
-      background-image: icon(flag, '%23c3cfd8');
+      background-image: icon(flag, 'rgb(195,207,216)');
     }
   }
   &.icon-bell {
-    background-image: icon(bell, '%23329ecc');
+    background-image: icon(bell, 'rgb(50,158,204)');
 
     &.disabled, &:disabled {
-      background-image: icon(bell, '%23c3cfd8');
+      background-image: icon(bell, 'rgb(195,207,216)');
     }
   }
   &.icon-exclamation {
-    background-image: icon(exclamation, '%23329ecc');
+    background-image: icon(exclamation, 'rgb(50,158,204)');
 
     &.disabled, &:disabled {
-      background-image: icon(exclamation, '%23c3cfd8');
+      background-image: icon(exclamation, 'rgb(195,207,216)');
     }
   }
   &.icon-question {
-    background-image: icon(question, '%23329ecc');
+    background-image: icon(question, 'rgb(50,158,204)');
 
     &.disabled, &:disabled {
-      background-image: icon(question, '%23c3cfd8');
+      background-image: icon(question, 'rgb(195,207,216)');
     }
   }
   &.icon-prohibit {
-    background-image: icon(prohibit, '%23329ecc');
+    background-image: icon(prohibit, 'rgb(50,158,204)');
 
     &.disabled, &:disabled {
-      background-image: icon(prohibit, '%23c3cfd8');
+      background-image: icon(prohibit, 'rgb(195,207,216)');
     }
   }
   &.icon-product {
-    background-image: icon(product, '%23329ecc');
+    background-image: icon(product, 'rgb(50,158,204)');
 
     &.disabled, &:disabled {
-      background-image: icon(product, '%23c3cfd8');
+      background-image: icon(product, 'rgb(195,207,216)');
     }
   }
   &.icon-preview {
-    background-image: icon(preview, '%23329ecc');
+    background-image: icon(preview, 'rgb(50,158,204)');
 
     &.disabled, &:disabled {
-      background-image: icon(preview, '%23c3cfd8');
+      background-image: icon(preview, 'rgb(195,207,216)');
     }
   }
   &.icon-edit {
-    background-image: icon(edit, '%23329ecc');
+    background-image: icon(edit, 'rgb(50,158,204)');
 
     &.disabled, &:disabled {
-      background-image: icon(edit, '%23c3cfd8');
+      background-image: icon(edit, 'rgb(195,207,216)');
     }
   }
   &.icon-addition {
-    background-image: icon(addition, '%23329ecc');
+    background-image: icon(addition, 'rgb(50,158,204)');
 
     &.disabled, &:disabled {
-      background-image: icon(addition, '%23c3cfd8');
+      background-image: icon(addition, 'rgb(195,207,216)');
     }
   }
   &.icon-subtraction {
-    background-image: icon(subtraction, '%23329ecc');
+    background-image: icon(subtraction, 'rgb(50,158,204)');
 
     &.disabled, &:disabled {
-      background-image: icon(subtraction, '%23c3cfd8');
+      background-image: icon(subtraction, 'rgb(195,207,216)');
     }
   }
   &.icon-calendar {
-    background-image: icon(calendar, '%23329ecc');
+    background-image: icon(calendar, 'rgb(50,158,204)');
 
     &.disabled, &:disabled {
-      background-image: icon(calendar, '%23c3cfd8');
+      background-image: icon(calendar, 'rgb(195,207,216)');
     }
   }
   &.icon-addcircle {
-    background-image: icon(add-circle, '%23329ecc');
+    background-image: icon(add-circle, 'rgb(50,158,204)');
 
     &.disabled, &:disabled {
-      background-image: icon(add-circle, '%23c3cfd8');
+      background-image: icon(add-circle, 'rgb(195,207,216)');
     }
   }
   &.icon-orders {
-    background-image: icon(orders, '%23329ecc');
+    background-image: icon(orders, 'rgb(50,158,204)');
 
     &.disabled, &:disabled {
-      background-image: icon(orders, '%23c3cfd8');
+      background-image: icon(orders, 'rgb(195,207,216)');
     }
   }
   &.icon-photos {
-    background-image: icon(photos, '%23329ecc');
+    background-image: icon(photos, 'rgb(50,158,204)');
     width: 6.4rem;
     height: 6.4rem;
     background-size: 6.4rem 6.4rem;
 
     &.disabled, &:disabled {
-      background-image: icon(photos, '%23c3cfd8');
+      background-image: icon(photos, 'rgb(195,207,216)');
     }
   }
   &.icon-profile {
-    background-image: icon(profile, '%23329ecc');
+    background-image: icon(profile, 'rgb(50,158,204)');
     width: 6.4rem;
     height: 6.4rem;
     background-size: 6.4rem 6.4rem;
 
     &.disabled, &:disabled {
-      background-image: icon(profile, '%23c3cfd8');
+      background-image: icon(profile, 'rgb(195,207,216)');
     }
   }
 }
