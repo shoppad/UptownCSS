@@ -49,6 +49,18 @@ select {
     background-position: top .6rem left .6rem;
   }
 }
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="text"],
+input[type="tel"],
+input[type="url"],
+input[type="password"],
+textarea,
+select {
+  min-height: 3.4rem;
+}
+
 /* Removes awkward default styles on some inputs for iOS */
 input[type="email"],
 input[type="number"],
@@ -64,7 +76,6 @@ select {
   @include appearance(none);
 }
 select {
-  min-height: 3.4rem;
   padding-right: 3.2rem; 
   background-size: 1.2rem 1.2rem;
   background-image: icon(chevron-down, 'rgb(121,140,156)');
@@ -74,6 +85,9 @@ select {
   &[multiple] {
     padding-right: 1rem;
     background-image: none;
+  }
+  &::-ms-expand {
+    display: none;
   }
 }
 textarea {
