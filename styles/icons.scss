@@ -1,14 +1,41 @@
+@function svg-uri($svg) {
+    $encoded: '';
+    $slice: 2000;
+    $index: 0;
+    $loops: ceil(str-length($svg) / $slice);
+
+    @for $i from 1 through $loops {
+        $chunk: str-slice($svg, $index, $index + $slice - 1);
+        $chunk: str-replace($chunk, '"', "'");
+        $chunk: str-replace($chunk, '<', '%3C');
+        $chunk: str-replace($chunk, '>', '%3E');
+        $chunk: str-replace($chunk, '&', '%26');
+        $chunk: str-replace($chunk, '#', '%23');
+        $encoded: #{$encoded}#{$chunk};
+        $index: $index + $slice;
+    }
+
+    @return #{$encoded};
+}
+
+@function str-replace($string, $search, $replace: '') {
+    $index: str-index($string, $search);
+
+    @if $index {
+        @return str-slice($string, 1, $index - 1) + $replace + str-replace(str-slice($string, $index + str-length($search)), $search, $replace);
+    }
+
+    @return $string;
+}
+
 @function _buildIcon($icon) {
   $icon: '#{$icon}';
-  @return $icon;
+  @return svg-uri($icon);
 }
 
 @function icon(
   $icon-name, 
-  $color, 
-  $stroke-color: transparent,
-  $stroke-width: 0,
-  $css: '' // arbitrary css
+  $color
   ){
   $icons: (
     chevron-down:   '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" enable-background="new 0 0 24 24"><path fill="#{$color}" d="M21 5.176l-9.086 9.353-8.914-9.353-2.314 2.471 11.314 11.735 11.314-11.735-2.314-2.471z"/></svg>',
@@ -37,7 +64,7 @@
   );
   
   $icon: _buildIcon(map-get($icons, $icon-name));
-  @return url('data:image/svg+xml,#{$icon}');
+  @return url('data:image/svg+xml;charset=utf8,#{$icon}');
 }
 
 [class^="icon-"],
