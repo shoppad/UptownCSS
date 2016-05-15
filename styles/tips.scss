@@ -5,6 +5,7 @@
   position: relative;
 
   &:hover {
+    text-decoration: none;
 
     &:before {
       border: solid;
@@ -31,7 +32,6 @@
       width: auto;
       white-space: nowrap;
       text-align: left;
-      text-decoration: none;
     }
   }
 }
