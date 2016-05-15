@@ -12,7 +12,7 @@
   &.pending {
     padding-left: 2.5rem;
     background-repeat: no-repeat;
-    background-size: 1.3rem 1.3rem;
+    background-size: 13px 13px; /* IE requires pixels. Using cover/contain/rem values cause blurry edges */
     background-position: .7rem .7rem;
   }
   &.blue {
@@ -86,7 +86,7 @@
       margin: .1rem;
       padding: 0 .8rem;
       background-image: icon(close, rgba(0,0,0,.55));
-      background-size: .9rem .9rem;
+      background-size: 9px 9px; /* IE requires pixels. Using cover/contain/rem values cause blurry edges */
       background-repeat: no-repeat;
       background-position: center;
     }

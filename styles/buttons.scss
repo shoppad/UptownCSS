@@ -97,7 +97,7 @@ input[type="button"] {
     min-height: 3.4rem;
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 1.2rem 1.2rem;
+    background-size: 12px 12px; /* IE requires pixels. Using cover/contain/rem values cause blurry edges */
   }
 }
 .button-group {

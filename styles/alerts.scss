@@ -15,7 +15,7 @@
   border-radius: .3rem;
   background-image: icon(flag, '%23798c9c');
   background-repeat: no-repeat;
-  background-size: 2.4rem 2.4rem;
+  background-size: 24px 24px; /* IE requires pixels. Using cover/contain/rem values cause blurry edges */
   background-position: 1.8rem 1.5rem;
   text-align: left;
 
@@ -32,7 +32,7 @@
     height: 1.2rem;
     background-image: icon(close, '%23000000');
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: 12px 12px; /* IE requires pixels. Using cover/contain/rem values cause blurry edges */
 
     &:hover {
       opacity: .5;

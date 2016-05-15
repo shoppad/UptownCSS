@@ -21,7 +21,7 @@ footer {
       background-color: #479ccf;
       margin-right: 2.5rem;
       background-image: icon(question, 'rgb(235,238,240)');
-      background-size: 2.4rem 2.4rem;
+      background-size: 24px 24px; /* IE requires pixels. Using cover/contain/rem values cause blurry edges */
       background-repeat: no-repeat;
       background-position: center;
     }

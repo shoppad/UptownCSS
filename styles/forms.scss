@@ -45,23 +45,10 @@ select {
     padding-left: 3.0rem;
     background-image: icon(search, 'rgb(149,167,183)');
     background-repeat: no-repeat;
-    background-size: 1.8rem 1.8rem;
+    background-size: 18px 18px; /* IE requires pixels. Using cover/contain/rem values cause blurry edges */
     background-position: top .6rem left .6rem;
   }
 }
-input[type="email"],
-input[type="number"],
-input[type="search"],
-input[type="text"],
-input[type="tel"],
-input[type="url"],
-input[type="password"],
-textarea,
-select {
-  min-height: 3.4rem;
-}
-
-/* Removes awkward default styles on some inputs for iOS */
 input[type="email"],
 input[type="number"],
 input[type="search"],
@@ -75,10 +62,21 @@ textarea,
 select {
   @include appearance(none);
 }
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="text"],
+input[type="tel"],
+input[type="url"],
+input[type="password"],
+textarea,
+select {
+  min-height: 3.4rem;
+}
 select {
   padding-right: 3.2rem; 
-  background-size: 1.2rem 1.2rem;
   background-image: icon(chevron-down, 'rgb(121,140,156)');
+  background-size: 12px 12px; /* IE requires pixels. Using cover/contain/rem values cause blurry edges */
   background-repeat: no-repeat;
   background-position: right 1.0rem top 1.0rem;
 
@@ -147,7 +145,7 @@ input[type="checkbox"] {
     background-image: icon(checkmark, 'rgb(71,156,207)');
     background-repeat: no-repeat;
     background-position: center;
-    background-size: contain;
+    background-size: 12px 12px; /* IE requires pixels. Using cover/contain/rem values cause blurry edges */
     top: .1rem;
     left: .1rem;    
   }

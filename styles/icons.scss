@@ -74,7 +74,7 @@
   height: 1.6rem;
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
+  background-size: 16px 16px; /* IE requires pixels. Using cover/contain/rem values cause blurry edges */
 
   &.icon-prev {
     background-image: icon(chevron-left, 'rgb(50,158,204)');
@@ -220,7 +220,7 @@
     background-image: icon(photos, 'rgb(50,158,204)');
     width: 6.4rem;
     height: 6.4rem;
-    background-size: 6.4rem 6.4rem;
+    background-size: 64px 64px; /* IE requires pixels. Using cover/contain/rem values cause blurry edges */
 
     &.disabled, &:disabled {
       background-image: icon(photos, 'rgb(195,207,216)');
@@ -230,7 +230,7 @@
     background-image: icon(profile, 'rgb(50,158,204)');
     width: 6.4rem;
     height: 6.4rem;
-    background-size: 6.4rem 6.4rem;
+    background-size: 64px 64px; /* IE requires pixels. Using cover/contain/rem values cause blurry edges */
 
     &.disabled, &:disabled {
       background-image: icon(profile, 'rgb(195,207,216)');
