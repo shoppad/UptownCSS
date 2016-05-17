@@ -213,9 +213,6 @@ label {
   button {
     @include flex(0 0 auto);
   }
-  select.append {
-    flex: 0 0 1rem;
-  }
 }
 .side-elements {
   @include display(flex);
