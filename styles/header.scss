@@ -1,9 +1,7 @@
 /* Header
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 header {
-  @include display(flex);
-  @include align-items(center);
-  @include flex-direction(column);
+  display: block;
   position: relative;
   width: 100%;
   min-height: 20.0rem;

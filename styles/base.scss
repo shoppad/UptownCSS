@@ -109,15 +109,16 @@ main {
   box-sizing: border-box; 
 }
 section {
-  @include display(flex);
-  @include align-items(stretch);
-  @include flex-direction(column);
+  display: block;
   width: 100%;
   max-width: 1036px;
   text-align: left;
   margin: 0 auto;
   
   @media (min-width: 550px) {
+    @include display(flex);
+    @include align-items(stretch);
+    @include flex-direction(column);
     @include flex-direction(row);
   }
   &+section {
