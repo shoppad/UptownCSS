@@ -10,20 +10,28 @@ are based on 10px sizing. So basically 1.5rem = 15px :) */
 html {
   height: 100%;
   font-size: 62.5%;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
 }
 body {
   box-sizing: border-box;
   height: 100%;
-  font-size: 1.3em;
+  font-size: 1.4em;
   line-height: 1.6;
-  font-weight: 400;
-  font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #31373d;
+  font-family: -apple-system, "BlinkMacSystemFont", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", sans-serif;
+  color: rgba(0,0,0,.9);
   background-color: #ebeef0; 
   margin: 0;
   padding: 0;
   text-align: center;
   fill: currentColor;
+  font-weight: 400;
+  text-transform: initial;
+  letter-spacing: initial;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 p {
   margin-top: 0;
@@ -31,7 +39,7 @@ p {
 em {
   font-style: italic;
   font-size: 90%;
-  color: #95a7b7;
+  color: rgba(0,0,0,0.56);
   margin-top: .5rem;
 }
 hr {
@@ -134,14 +142,14 @@ section {
       @include flex(1 0 24.0rem);
     }
     h2 {
-      color: #31373d;
+      color: rgba(0,0,0,0.9);;
       margin: 0 0 2.0rem 0;
       font-weight: 400;
       font-size: 1.8rem;
       line-height: 1.2em;
     }
     p {
-      color: #798c9c;
+      color: rgba(0,0,0,0.56);
       line-height: 1.4;
     }
   }
@@ -161,7 +169,7 @@ section {
     width: 100%;
     border-radius: .3rem;
     box-shadow: 0 .2rem .4rem rgba(0,0,0,0.1);
-    color: #31373d;
+    color: rgba(0,0,0,0.9);
     box-sizing: border-box;
     margin-bottom: 2.0rem;
     padding: 2.0rem;
@@ -180,7 +188,7 @@ section {
       margin-bottom: 0;
     }
     p {
-      color: #95a7b7;
+      color: rgba(0,0,0,0.9);
     }
   }
 }
