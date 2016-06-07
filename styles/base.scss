@@ -50,11 +50,11 @@ hr {
 }
 a {
   text-decoration: none;
-  color: #479ccf;
+  color: #0078bd;
   cursor: pointer; 
   
   &:hover {
-    color: #4293c2;
+    color: #0069a6;
     text-decoration: underline;
   }
 }
@@ -107,6 +107,8 @@ code {
 pre > code {
   display: block;
   padding: 1rem 1.5rem;
+  margin: 0;
+  overflow: auto;
 }
 
 

@@ -8,10 +8,10 @@ input[type="button"] {
   box-sizing: border-box;
   cursor: pointer;
   display: inline-block;
-  background-color: #479ccf;
+  background-color: #0078bd;
   color: #fff;
   border: .1rem solid;
-  border-color: #479ccf;
+  border-color: #0078bd;
   padding: .9rem 1.5rem;
   margin: 0;
   border-radius: .3rem;
@@ -34,14 +34,14 @@ input[type="button"] {
   &:hover,
   &:focus {
     color: #fff;
-    border-color: #4293c2;
-    background-color: #4293c2;
     outline: none;
     text-decoration: none;
+    border-color: #0069a6;
+    background-color: #0069a6;
   }
   &:active {
     box-shadow: 0 .3rem .6rem rgba(0,0,0,0.2) inset;
-    background-color: #4293c2;
+    background-color: #0069a6;
   }
   &.secondary {
     border-color: #d3dbe2;
