@@ -24,9 +24,11 @@
       bottom: 2.5rem;
       color: #fff;
       content: attr(data-hover);
+	    font-size: 1.4rem;
+	    line-height: 2.0rem;
       left: 50%;
       @include transform(translateX(-50%));
-      padding: .5rem .8rem;
+      padding: .5rem 1.5rem;
       position: absolute;
       z-index: 98;
       width: auto;

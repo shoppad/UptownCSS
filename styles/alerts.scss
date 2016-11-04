@@ -8,11 +8,10 @@
   box-sizing: border-box;
   padding: 1.5rem;
   color: #31373d;
-  margin-bottom: 2.0rem;
+  margin: -2.0rem -2.0rem 4.0rem -2.0rem;
   padding-left: 6.0rem;
   background-color: #d3dbe2;
   border: .1rem solid rgba(0, 0, 0, 0.1);
-  border-radius: .3rem;
   background-image: icon(flag, '%23798c9c');
   background-repeat: no-repeat;
   background-size: 24px 24px; /* IE requires pixels. Using cover/contain/rem values cause blurry edges */
@@ -21,6 +20,8 @@
 
   @media (min-width: 550px) {
     @include flex-direction(row);
+    margin: 0 0 2.0rem 0;
+    border-radius: .3rem;
   }
 
   .close {
@@ -68,7 +69,9 @@
     }
     
     dt {
-      font-size: 100%;
+      font-size: 110%;
+	  line-height: 120%;
+	  font-weight: 600;
       margin: 0;
     }
     dd {

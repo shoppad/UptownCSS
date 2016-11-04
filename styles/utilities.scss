@@ -9,12 +9,6 @@
   max-width: 100%;
   box-sizing: border-box;
 }
-.pull-right {
-  float: right;
-}
-.pull-left {
-  float: left;
-}
 .align-center {
   text-align: center;
 }
@@ -27,10 +21,6 @@
 .highlight-warning {
   background: #fffbe9;
   color: #e85b0f;
-}
-.helper {
-  float: right;
-  font-size: 1.3rem;
 }
 .blue {
   color: #3e89b5;
@@ -52,6 +42,25 @@
 }
 .orange {
   color: #7f3a07;
+}
+.emphasis {
+  font-weight: 600;
+  color: hsl(0,0%,10%);
+}
+.subdued {
+  font-weight: normal;
+  color: hsl(0,0%,44%);
+}
+.hide-scrollbars {
+  
+  ::-webkit-scrollbar {
+    display: none !important;
+    width: 10px !important;
+    height: 0 !important;
+  }
+  ::-webkit-scrollbar-thumb {
+      background-color: rgba(0,0,0,0);
+  }
 }
 .overflow-container {
   overflow: auto;

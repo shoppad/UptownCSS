@@ -19,15 +19,15 @@ body {
   box-sizing: border-box;
   height: 100%;
   font-size: 1.4em;
-  line-height: 1.6;
+  line-height: 2.0rem;
+  font-weight: 400;
   font-family: -apple-system, "BlinkMacSystemFont", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", sans-serif;
-  color: rgba(0,0,0,.9);
+  color: hsl(0,0%,10%);
   background-color: #ebeef0; 
   margin: 0;
   padding: 0;
   text-align: center;
   fill: currentColor;
-  font-weight: 400;
   text-transform: initial;
   letter-spacing: initial;
   -webkit-font-smoothing: antialiased;
@@ -35,12 +35,11 @@ body {
 }
 p {
   margin-top: 0;
+  margin-bottom: 1.5rem;
 }
 em {
-  font-style: italic;
-  font-size: 90%;
-  color: rgba(0,0,0,0.56);
-  margin-top: .5rem;
+  font-style: normal;
+  color: hsl(0,0%,44%);
 }
 hr {
   margin: 0;
@@ -62,14 +61,7 @@ svg,
 path {
   fill: currentColor;
 }
-::-webkit-scrollbar {
-    display: none !important;
-    width: 10px !important;
-    height: 0 !important;
-}
-::-webkit-scrollbar-thumb {
-    background-color: rgba(0,0,0,0);
-}
+
 
 
 /* Lists
@@ -110,8 +102,6 @@ pre > code {
   margin: 0;
   overflow: auto;
 }
-
-
 main {
   position: relative;
   width: 100%;
@@ -143,15 +133,16 @@ section {
     @media (min-width: 550px) {
       @include flex(1 0 24.0rem);
     }
+	  
     h2 {
-      color: rgba(0,0,0,0.9);;
-      margin: 0 0 2.0rem 0;
-      font-weight: 400;
-      font-size: 1.8rem;
-      line-height: 1.2em;
+      margin: 0;
+	    padding: 2.0rem 0;
+      font-weight: 600;
+      font-size: 1.6rem;
+      line-height: 1.6em;
     }
     p {
-      color: rgba(0,0,0,0.56);
+      color: hsl(0,0%,44%);
       line-height: 1.4;
     }
   }
@@ -159,23 +150,37 @@ section {
     @include display(flex);
     @include flex(1);
     @include flex-direction(column);
-    margin: 0 2.0rem;
+    
 
     @media (min-width: 550px) {
       @include flex(2 1 48.0rem);
       @include flex-direction(row);
+	    margin: 0 2.0rem;
     }
   }
   .card {
     display: inline-block;
     width: 100%;
-    border-radius: .3rem;
-    box-shadow: 0 .2rem .4rem rgba(0,0,0,0.1);
-    color: rgba(0,0,0,0.9);
+    color: hsl(0,0%,10%);
     box-sizing: border-box;
-    margin-bottom: 2.0rem;
+    margin-bottom: 0;
     padding: 2.0rem;
     background-color: #ffffff;
+    
+    ~ h1:first-of-type,
+    ~ h2:first-of-type,
+    ~ h3:first-of-type,
+    ~ h4:first-of-type,
+    ~ h5:first-of-type,
+    ~ h6:first-of-type {
+      margin-top: 0;
+    }
+	  
+    @media (min-width: 550px) {
+      border-radius: .3rem;
+      box-shadow: 0 .2rem .4rem rgba(0,0,0,0.1);
+      margin-bottom: 2.0rem;
+    }
 
     &.secondary {
       background-color: #f5f6f7;
@@ -185,12 +190,18 @@ section {
     }
     .card-section {
       padding: 2.0rem;
-    }
-    h1, h2, h3, h4, h5, h6 {
-      margin-bottom: 0;
+      
+      ~ h1:first-of-type,
+      ~ h2:first-of-type,
+      ~ h3:first-of-type,
+      ~ h4:first-of-type,
+      ~ h5:first-of-type,
+      ~ h6:first-of-type {
+        margin-top: 0;
+      }
     }
     p {
-      color: rgba(0,0,0,0.9);
+      color: hsl(0,0%,10%);
     }
   }
 }

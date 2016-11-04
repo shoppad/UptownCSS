@@ -28,7 +28,7 @@ table {
     font-weight: normal;
 
     &:hover {
-      color: #479ccf;
+      color: #0078bd;
       background: #eff9fd;
       cursor: pointer;
     }
@@ -37,6 +37,16 @@ table {
       color: inherit;
       cursor: default;
     }
+  }
+  td {
+	  
+	.icon-image {
+	  width: 3.6rem;
+      height: 3.6rem;
+      background-size: 36px 36px; /* IE requires pixels. Using cover/contain/rem values cause blurry edges */
+      vertical-align: middle;
+      display: inline-block;
+	}
   }
 
   &.results {
@@ -56,15 +66,23 @@ table {
   &.summary {
 
     th {
-      padding: 0;
+      padding: 0 0 2.0rem 0;
       border: 0;
-      font-size: 2.4rem;
+      font-size: 1.2rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      
+      &:hover {
+        cursor: auto;
+        background-color: transparent;
+        color: inherit;
+      }
 
       span {
         float: right;
-        color: #95a7b7;
-        font-size: 1.2rem;
-        margin-top: 1rem;
+        color: hsl(0,0%,44%);
+        text-transform: none;
+        font-weight: 300;
       }
     }
 
