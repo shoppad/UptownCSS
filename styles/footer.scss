@@ -6,8 +6,8 @@ footer {
   width: 100%;
 
   .help {
-    @include align-items(center);
-    @include display(inline-flex);
+    align-items: center;
+    display: inline-flex;
     border: 0.1rem solid #d3dbe2;
     border-radius: 0.3rem;
     color: hsl(0,0%,44%);

@@ -116,22 +116,22 @@ section {
   margin: 0 auto;
   
   @media (min-width: 550px) {
-    @include display(flex);
-    @include align-items(stretch);
-    @include flex-direction(column);
-    @include flex-direction(row);
+    display: flex;
+    align-items: stretch;
+    flex-direction: column;
+    flex-direction: row;
   }
   &+section {
     padding-top: 2rem;
     border-top: .1rem solid #d3dbe2;
   }
   aside {
-    @include flex(1);
+    flex: 1;
     padding: 0 2.0rem;
     box-sizing: border-box;
 
     @media (min-width: 550px) {
-      @include flex(1 0 24.0rem);
+      flex: 1 0 24.0rem;
     }
 	  
     h2 {
@@ -147,14 +147,14 @@ section {
     }
   }
   article {
-    @include display(flex);
-    @include flex(1);
-    @include flex-direction(column);
+    display: flex;
+    flex: 1;
+    flex-direction: column;
     
 
     @media (min-width: 550px) {
-      @include flex(2 1 48.0rem);
-      @include flex-direction(row);
+      flex: 2 1 48.0rem;
+      flex-direction: row;
 	    margin: 0 2.0rem;
     }
   }
