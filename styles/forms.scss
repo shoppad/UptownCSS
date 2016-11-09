@@ -73,7 +73,7 @@ input[type="radio"],
 input[type="checkbox"],
 textarea,
 select {
-  @include appearance(none);
+  appearance: none;
 }
 input[type="email"],
 input[type="number"],
@@ -195,11 +195,11 @@ label {
   }
 }
 .input-group {
-  @include display(flex);
-  @include align-items(center);
+  display: flex;
+  align-items: center;
 
   .append {
-    @include flex(0 0 auto);
+    flex: 0 0 auto;
     color: rgba(49,55,61,.85);
     line-height: 2.4rem;
     padding: .5rem 1rem;
@@ -229,21 +229,21 @@ label {
   }
   .button,
   button {
-    @include flex(0 0 auto);
+    flex: 0 0 auto;
   }
 }
 .side-elements {
-  @include display(flex);
-  @include align-items(center);
+  display: flex;
+  align-items: center;
   
   label {
-    @include flex(0 0 auto);
+    flex: 0 0 auto;
     margin: 0 1rem 0 0;
     white-space: nowrap;  
   }
   button,
   .button {
-    @include flex(0 0 auto);
+    flex: 0 0 auto;
     margin-left: 1rem;
   }
 }
