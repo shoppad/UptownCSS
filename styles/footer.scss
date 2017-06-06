@@ -10,16 +10,16 @@ footer {
     display: inline-flex;
     border: 0.1rem solid #dfe3e8;
     border-radius: 999rem;
-    padding: .8rem 2.4rem .8rem .8rem;
+    padding: 1.6rem 2rem 1.6rem 1.6rem;
 
     span {
-      min-width: 3.6rem;
-      min-height: 3.6rem;
+      min-width: 4rem;
+      min-height: 4rem;
       border-radius: 50%;
       background-color: #fff;
       margin-right: 2.4rem;
       background-image: icon(question, 'rgb(71,193,191)');
-      background-size: 20px 20px; /* IE requires pixels. Using cover/contain/rem values cause blurry edges */
+      background-size: 24px 24px; /* IE requires pixels. Using cover/contain/rem values cause blurry edges */
       background-repeat: no-repeat;
       background-position: center;
     }

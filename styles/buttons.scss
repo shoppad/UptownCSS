@@ -138,15 +138,6 @@ input[type="button"] {
     border: 1px solid #c4cdd5;
     box-shadow: none;
   }
-  &[class^="icon-"],
-  &[class*=" icon-"] {
-    padding-left: 2.1rem;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 12px 12px; /* IE requires pixels. Using cover/contain/rem values cause blurry edges */
-
-
-  }
 }
 .button-group {
   margin-right: 1rem;
