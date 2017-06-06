@@ -19,29 +19,29 @@
   text-align: right;
 }
 .highlight-warning {
-  background: #fffbe9;
-  color: #e85b0f;
+  background: #FCF1CD;
+  color: #ED6347;
 }
 .blue {
-  color: #3e89b5;
+  color: #007ACE;
 }
 .green {
-  color: #4d684b;
+  color: #50B83C;
 }
 .yellow {
-  color: #6f4f26;
+  color: #EEC200;
 }
 .red {
-  color: #8c2929;
+  color: #ED6347;
 }
 .grey {
-  color: #798c9c;
+  color: #DFE4E8;
 }
 .lightblue {
-  color: #647f9e;
+  color: #B4E1FA;
 }
 .orange {
-  color: #7f3a07;
+  color: #F49342;
 }
 .emphasis {
   font-weight: 600;
@@ -52,7 +52,7 @@
   color: hsl(0,0%,44%);
 }
 .hide-scrollbars {
-  
+
   ::-webkit-scrollbar {
     display: none !important;
     width: 10px !important;

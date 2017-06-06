@@ -22,8 +22,8 @@ body {
   line-height: 2.0rem;
   font-weight: 400;
   font-family: -apple-system, "BlinkMacSystemFont", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", sans-serif;
-  color: hsl(0,0%,10%);
-  background-color: #ebeef0; 
+  color: #1a1a1a;
+  background-color: #f4f6f8;
   margin: 0;
   padding: 0;
   text-align: center;
@@ -36,6 +36,7 @@ body {
 p {
   margin-top: 0;
   margin-bottom: 1.5rem;
+  color: #637381;
 }
 em {
   font-style: normal;
@@ -45,16 +46,25 @@ hr {
   margin: 0;
   border-width: 0;
   border-collapse: collapse;
-  border-top: .1rem solid #ebeef0;
+  border-top: .1rem solid #dfe4e8;
 }
 a {
   text-decoration: none;
-  color: #0078bd;
-  cursor: pointer; 
-  
+  cursor: pointer;
+  color: #007ace;
+  transition: color .24s cubic-bezier(.64,0,.35,1);
+
   &:hover {
-    color: #0069a6;
-    text-decoration: underline;
+    color: #084e8a;
+    outline: none;
+  }
+  &:focus {
+    color: #084e8a;
+    outline: none;
+  }
+  &:active {
+    color: #084e8a;
+    outline: none;
   }
 }
 svg,
@@ -74,7 +84,7 @@ ol {
 }
 ol, ul {
   padding-left: 0;
-  margin-top: 0; 
+  margin-top: 0;
   margin-left: 2.0rem;
   margin-bottom: 0;
 }
@@ -83,6 +93,9 @@ ul ol,
 ol ol,
 ol ul {
   margin: 0 0 0 3rem;
+}
+li {
+  color: #637381;
 }
 
 
@@ -106,7 +119,7 @@ main {
   position: relative;
   width: 100%;
   margin: 0 auto;
-  box-sizing: border-box; 
+  box-sizing: border-box;
 }
 section {
   display: block;
@@ -114,7 +127,7 @@ section {
   max-width: 1036px;
   text-align: left;
   margin: 0 auto;
-  
+
   @media (min-width: 550px) {
     display: flex;
     align-items: stretch;
@@ -133,7 +146,7 @@ section {
     @media (min-width: 550px) {
       flex: 1 0 24.0rem;
     }
-	  
+
     h2 {
       margin: 0;
 	    padding: 2.0rem 0;
@@ -150,7 +163,7 @@ section {
     display: flex;
     flex: 1;
     flex-direction: column;
-    
+
 
     @media (min-width: 550px) {
       flex: 2 1 48.0rem;
@@ -161,12 +174,13 @@ section {
   .card {
     display: inline-block;
     width: 100%;
-    color: hsl(0,0%,10%);
+    color: #1a1919;
     box-sizing: border-box;
     margin-bottom: 0;
     padding: 2.0rem;
     background-color: #ffffff;
-    
+
+
     ~ h1:first-of-type,
     ~ h2:first-of-type,
     ~ h3:first-of-type,
@@ -175,22 +189,22 @@ section {
     ~ h6:first-of-type {
       margin-top: 0;
     }
-	  
+
     @media (min-width: 550px) {
-      border-radius: .3rem;
-      box-shadow: 0 .2rem .4rem rgba(0,0,0,0.1);
+      //border-radius: .3rem;
+      box-shadow: 0 0 0 1px rgba(63,63,68,.05), 0 1px 3px 0 rgba(63,63,68,.15);
       margin-bottom: 2.0rem;
     }
 
     &.secondary {
-      background-color: #f5f6f7;
+      background-color: #ebeef0;
     }
     &.has-sections {
       padding: 0;
     }
     .card-section {
       padding: 2.0rem;
-      
+
       ~ h1:first-of-type,
       ~ h2:first-of-type,
       ~ h3:first-of-type,
