@@ -40,13 +40,13 @@ table {
     .icon-image {
       float: left;
       display: inline-block;
-      min-width: 3.6rem;
-      min-height: 3.6rem;
+      min-width: 2.4rem;
+      min-height: 2.4rem;
 
       &:after {
-        min-width: 3.6rem;
-        min-height: 3.6rem;
-        background-size: 36px 36px; /* IE requires pixels. Using cover/contain/rem values cause blurry edges */
+        min-width: 2.4rem;
+        min-height: 2.4rem;
+        background-size: 24px 24px; /* IE requires pixels. Using cover/contain/rem values cause blurry edges */
         vertical-align: middle;
         display: inline-block;
     	}
