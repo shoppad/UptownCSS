@@ -1,15 +1,16 @@
 /* Tables
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 table {
-  width: 100%; 
+  width: 100%;
 
   tbody {
 
     tr {
 
-      &:hover {
-        background: #eff9fd; 
+      &:nth-child(odd) {
+        background: #fafbfc;
       }
+
       &:last-child {
 
         td {
@@ -22,44 +23,43 @@ table {
   td {
     padding: 1.2rem 1.5rem;
     text-align: left;
-    border-bottom: .1rem solid #E1E1E1; 
   }
   th {
     font-weight: normal;
+    border-bottom: .1rem solid #d3dbe2;
 
     &:hover {
-      color: #0078bd;
-      background: #eff9fd;
       cursor: pointer;
     }
     &:empty:hover {
-      background: transparent;
-      color: inherit;
       cursor: default;
     }
   }
   td {
-	  
-	.icon-image {
-	  width: 3.6rem;
-      height: 3.6rem;
-      background-size: 36px 36px; /* IE requires pixels. Using cover/contain/rem values cause blurry edges */
-      vertical-align: middle;
+
+    .icon-image {
+      float: left;
       display: inline-block;
-	}
+      min-width: 2.4rem;
+      min-height: 2.4rem;
+
+      &:after {
+        min-width: 2.4rem;
+        min-height: 2.4rem;
+        background-size: 24px 24px; /* IE requires pixels. Using cover/contain/rem values cause blurry edges */
+        vertical-align: middle;
+        display: inline-block;
+    	}
+    }
   }
 
   &.results {
 
     tr {
 
-      th {
-        border-color: #ebeef0;
-      }
       td {
         padding-top: .8rem;
         padding-bottom: .8rem;
-        border-color: #ebeef0;
       }
     }
   }
@@ -71,7 +71,7 @@ table {
       font-size: 1.2rem;
       font-weight: 600;
       text-transform: uppercase;
-      
+
       &:hover {
         cursor: auto;
         background-color: transparent;

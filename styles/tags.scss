@@ -6,7 +6,7 @@
   border-radius: .3rem;
   margin-right: .5rem;
   padding: 0 1rem;
-  line-height: 2.7rem;
+  line-height: 2.8rem;
   vertical-align: middle;
 
   &.pending {
@@ -16,59 +16,75 @@
     background-position: .7rem .7rem;
   }
   &.blue {
-    background-color: #cae9f7;
-    color: #3e89b5;
+    background-color: #B4E1FA;
+    color: #001429;
 
     &.pending {
-      background-image: icon(clock, 'rgb(62,137,181)');
+      background-image: icon(clock, 'rgb(0,20,41)');
+    }
+    &.remove a,
+    &.collapsable a {
+      background-image: icon(close, 'rgb(0,20,41)');
     }
   }
   &.green {
-    background-color: #b2d86a;
-    color: #4d684b;
+    background-color: #BBE5B3;
+    color: #414F3E;
 
     &.pending {
-      background-image: icon(clock, 'rgb(77,104,75)');
+      background-image: icon(clock, 'rgb(65,79,62)');
+    }
+    &.remove a,
+    &.collapsable a {
+      background-image: icon(close, 'rgb(65,79,62)');
     }
   }
   &.yellow {
-    background-color: #ffe477;
-    color: #6f4f26;
+    background-color: #FFEA8A;
+    color: #595130;
 
     &.pending {
-      background-image: icon(clock, 'rgb(111,79,38)');
+      background-image: icon(clock, 'rgb(89,81,48)');
+    }
+    &.remove a,
+    &.collapsable a {
+      background-image: icon(close, 'rgb(89,81,48)');
     }
   }
   &.red {
-    background-color: #ff9797;
-    color: #8c2929;
+    background-color: #FEAF9A;
+    color: #330101;
 
     &.pending {
-      background-image: icon(clock, 'rgb(140,41,41)');
+      background-image: icon(clock, 'rgb(51,1,1)');
+    }
+    &.remove a,
+    &.collapsable a {
+      background-image: icon(close, 'rgb(51,1,1)');
     }
   }
   &.grey {
-    background-color: #ebeef0;
-    color: #798c9c;
+    background-color: #dfe3e8;
+    color: #212b36;
 
     &.pending {
-      background-image: icon(clock, 'rgb(121,140,156)');
+      background-image: icon(clock, 'rgb(33,43,54)');
     }
-  }
-  &.lightblue {
-    background-color: #e9f3ff;
-    color: #647f9e;
-
-    &.pending {
-      background-image: icon(clock, 'rgb(100,127,158)');
+    &.remove a,
+    &.collapsable a {
+      background-image: icon(close, 'rgb(33,43,54)');
     }
   }
   &.orange {
-    background-color: #fec97d;
-    color: #7f3a07;
+    background-color: #FFC58B;
+    color: #594430;
 
     &.pending {
-      background-image: icon(clock, 'rgb(127,58,7)');
+      background-image: icon(clock, 'rgb(89,68,48)');
+    }
+    &.remove a,
+    &.collapsable a {
+      background-image: icon(close, 'rgb(89,68,48)');
     }
   }
   &.remove,
@@ -78,28 +94,28 @@
     padding-right: 3.5rem;
 
     a {
+      box-sizing: border-box;
       position: absolute;
       top: 0;
       right: 0;
-      width: .9rem; 
-      height: 2.5rem;
-      margin: .1rem;
+      width: 2.8rem;
+      height: 2.8rem;
       padding: 0 .8rem;
-      background-image: icon(close, rgba(0,0,0,.55));
-      background-size: 9px 9px; /* IE requires pixels. Using cover/contain/rem values cause blurry edges */
+      background-size: 20px 20px; /* IE requires pixels. Using cover/contain/rem values cause blurry edges */
       background-repeat: no-repeat;
       background-position: center;
-    }
-  }
-  &.collapsable {
-    box-shadow: inset 0 0 0 .1rem rgba(0,0,0,.15);
-
-    a {
-      margin-left: .7rem;
-      border-left: .1rem solid rgba(0,0,0,.15);
+      transition: all ease .3s;
 
       &:hover {
-        background-color: rgba(255,255,255,.25);
+        background-color: rgba(0,0,0,.1);
+        border-top-right-radius: .3rem;
+        border-bottom-right-radius: .3rem;
+      }
+      &:active,
+      &:focus {
+        background-color: rgba(0,0,0,.2);
+        border-top-right-radius: .3rem;
+        border-bottom-right-radius: .3rem;
       }
     }
   }
