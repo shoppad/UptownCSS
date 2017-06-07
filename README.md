@@ -13,4 +13,4 @@ Visit http://www.uptowncss.com for complete documentation and examples
 
 Copyright & License
 ---------------------
-Code and documentation copyright 2016 [ShopPad Inc.](http://www.theshoppad.com) Code released under the [MIT License](LICENSE).
+Code and documentation copyright 2017 [ShopPad Inc.](http://www.theshoppad.com) Code released under the [MIT License](LICENSE).
