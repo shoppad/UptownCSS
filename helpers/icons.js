@@ -4,7 +4,7 @@
 
 var fs = require('fs');
 
-fs.readFile('../styles/icons.scss', 'utf8', function (err, data) {
+fs.readFile('../styles/icons-mixin.scss', 'utf8', function (err, data) {
   if (err) {
     return console.log(err);
   }
