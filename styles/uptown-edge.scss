@@ -1,0 +1,20 @@
+/*!
+ * UptownCSS (http://www.uptowncss.com)
+ * Copyright 2016 ShopPad, Inc.
+ * Licensed under MIT (https://github.com/shoppad/UptownCSS/blob/master/LICENSE)
+ */
+
+
+@import "icons-mixin";
+
+@each $key, $value in $icons {
+  $icon: str-replace($key, '_', '-');
+  &.icon-$icon:after {
+  @include icon($key, 'rgb(145,158,171)', linked);
+  
+  &.disabled:after, &:disabled:after {
+    @include icon($key, 'rgb(196,205,213)', linked);
+  }
+}
+}
+
