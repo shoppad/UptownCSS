@@ -1,38 +1,3 @@
-@function svg-uri($svg) {
-    $encoded: '';
-    $slice: 2000;
-    $index: 0;
-    $loops: ceil(str-length($svg) / $slice);
-
-    @for $i from 1 through $loops {
-        $chunk: str-slice($svg, $index, $index + $slice - 1);
-        $chunk: str-replace($chunk, '"', "'");
-        $chunk: str-replace($chunk, '<', '%3C');
-        $chunk: str-replace($chunk, '>', '%3E');
-        $chunk: str-replace($chunk, '&', '%26');
-        $chunk: str-replace($chunk, '#', '%23');
-        $encoded: #{$encoded}#{$chunk};
-        $index: $index + $slice;
-    }
-
-    @return #{$encoded};
-}
-
-@function str-replace($string, $search, $replace: '') {
-    $index: str-index($string, $search);
-
-    @if $index {
-        @return str-slice($string, 1, $index - 1) + $replace + str-replace(str-slice($string, $index + str-length($search)), $search, $replace);
-    }
-
-    @return $string;
-}
-
-@function _buildIcon($icon) {
-  $icon: '#{$icon}';
-  @return svg-uri($icon);
-}
-
 [class^="icon-"],
 [class*=" icon-"] {
   position: relative;
@@ -52,10 +17,10 @@
     background-position: center;
     background-size: 16px 16px; /* IE requires pixels. Using cover/contain/rem values cause blurry edges */
   }
-  
+
   @each $key, $value in $icons {
     $icon: str-replace($key, '_', '-');
-    &.icon-$icon:after {
+    &.icon-#{$icon}:after {
       @include icon($key, 'rgb(145,158,171)', embedded);
     
       &.disabled:after, &:disabled:after {
@@ -63,5 +28,4 @@
       }
     }
   }
-  
 }

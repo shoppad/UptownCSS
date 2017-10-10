@@ -1,0 +1,32 @@
+{
+  "name": "uptowncss",
+  "version": "1.0.0",
+  "description": "A beautiful frontend development framework for Shopify, built by ShopPad",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shoppad/UptownCSS.git"
+  },
+  "keywords": [
+    "css",
+    "scss",
+    "shopify",
+    "shoppad"
+  ],
+  "author": "ShopPad",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shoppad/UptownCSS/issues"
+  },
+  "homepage": "https://github.com/shoppad/UptownCSS#readme",
+  "devDependencies": {
+    "autoprefixer": "^7.1.5",
+    "gulp": "^3.9.1",
+    "gulp-postcss": "^7.0.0",
+    "gulp-sass": "^3.1.0",
+    "node-sass-json-importer": "^3.0.2"
+  }
+}
