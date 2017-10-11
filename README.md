@@ -28,6 +28,9 @@ To rebuild the icons edit `./icons.json`, then run the gulp task
 gulp icons
 ```
 
+By default, browser-specific CSS code for Edge references SVG versions of the icons hosted on cdn.uptowncss.com.  If you 
+would like to load these locally, change the `$path` scss variable in `./styles/uptown.scss` and rebuild the css file.
+
 Submit an issue and a PR!
 
 Copyright & License

@@ -1138,6 +1138,518 @@ main:after,
     [class*=" icon-"].icon-offsite:after.disabled:after,
     [class*=" icon-"].icon-offsite:after:disabled:after {
       background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3E%3Cpath fill='rgb(196,205,213)' d='M17,2 C17.553,2 18,2.448 18,3 L18,8 C18,8.552 17.553,9 17,9 C16.447,9 16,8.552 16,8 L16,5.414 L8.707,12.707 C8.512,12.902 8.256,13 8,13 C7.744,13 7.488,12.902 7.293,12.707 C6.902,12.316 6.902,11.684 7.293,11.293 L14.586,4 L12,4 C11.447,4 11,3.552 11,3 C11,2.448 11.447,2 12,2 L17,2 Z M13,11 C13.553,11 14,11.448 14,12 L14,17 C14,17.552 13.553,18 13,18 L3,18 C2.447,18 2,17.552 2,17 L2,7 C2,6.448 2.447,6 3,6 L8,6 C8.553,6 9,6.448 9,7 C9,7.552 8.553,8 8,8 L4,8 L4,16 L12,16 L12,12 C12,11.448 12.447,11 13,11 Z'/%3E%3C/svg%3E"); }
+  @supports (-ms-ime-align: auto) {
+    [class^="icon-"].icon-close-circle:after,
+    [class*=" icon-"].icon-close-circle:after {
+      background-image: url("//cdn.uptowncss.com/icons/close_circle.svg"); }
+      [class^="icon-"].icon-close-circle:after.disabled:after, [class^="icon-"].icon-close-circle:after:disabled:after,
+      [class*=" icon-"].icon-close-circle:after.disabled:after,
+      [class*=" icon-"].icon-close-circle:after:disabled:after {
+        background-image: url("//cdn.uptowncss.com/icons/close_circle-disabled.svg"); }
+    [class^="icon-"].icon-arrow-left:after,
+    [class*=" icon-"].icon-arrow-left:after {
+      background-image: url("//cdn.uptowncss.com/icons/arrow_left.svg"); }
+      [class^="icon-"].icon-arrow-left:after.disabled:after, [class^="icon-"].icon-arrow-left:after:disabled:after,
+      [class*=" icon-"].icon-arrow-left:after.disabled:after,
+      [class*=" icon-"].icon-arrow-left:after:disabled:after {
+        background-image: url("//cdn.uptowncss.com/icons/arrow_left-disabled.svg"); }
+    [class^="icon-"].icon-arrow-right:after,
+    [class*=" icon-"].icon-arrow-right:after {
+      background-image: url("//cdn.uptowncss.com/icons/arrow_right.svg"); }
+      [class^="icon-"].icon-arrow-right:after.disabled:after, [class^="icon-"].icon-arrow-right:after:disabled:after,
+      [class*=" icon-"].icon-arrow-right:after.disabled:after,
+      [class*=" icon-"].icon-arrow-right:after:disabled:after {
+        background-image: url("//cdn.uptowncss.com/icons/arrow_right-disabled.svg"); }
+    [class^="icon-"].icon-select-arrows:after,
+    [class*=" icon-"].icon-select-arrows:after {
+      background-image: url("//cdn.uptowncss.com/icons/select_arrows.svg"); }
+      [class^="icon-"].icon-select-arrows:after.disabled:after, [class^="icon-"].icon-select-arrows:after:disabled:after,
+      [class*=" icon-"].icon-select-arrows:after.disabled:after,
+      [class*=" icon-"].icon-select-arrows:after:disabled:after {
+        background-image: url("//cdn.uptowncss.com/icons/select_arrows-disabled.svg"); }
+    [class^="icon-"].icon-chevron-left:after,
+    [class*=" icon-"].icon-chevron-left:after {
+      background-image: url("//cdn.uptowncss.com/icons/chevron_left.svg"); }
+      [class^="icon-"].icon-chevron-left:after.disabled:after, [class^="icon-"].icon-chevron-left:after:disabled:after,
+      [class*=" icon-"].icon-chevron-left:after.disabled:after,
+      [class*=" icon-"].icon-chevron-left:after:disabled:after {
+        background-image: url("//cdn.uptowncss.com/icons/chevron_left-disabled.svg"); }
+    [class^="icon-"].icon-chevron-right:after,
+    [class*=" icon-"].icon-chevron-right:after {
+      background-image: url("//cdn.uptowncss.com/icons/chevron_right.svg"); }
+      [class^="icon-"].icon-chevron-right:after.disabled:after, [class^="icon-"].icon-chevron-right:after:disabled:after,
+      [class*=" icon-"].icon-chevron-right:after.disabled:after,
+      [class*=" icon-"].icon-chevron-right:after:disabled:after {
+        background-image: url("//cdn.uptowncss.com/icons/chevron_right-disabled.svg"); }
+    [class^="icon-"].icon-trash:after,
+    [class*=" icon-"].icon-trash:after {
+      background-image: url("//cdn.uptowncss.com/icons/trash.svg"); }
+      [class^="icon-"].icon-trash:after.disabled:after, [class^="icon-"].icon-trash:after:disabled:after,
+      [class*=" icon-"].icon-trash:after.disabled:after,
+      [class*=" icon-"].icon-trash:after:disabled:after {
+        background-image: url("//cdn.uptowncss.com/icons/trash-disabled.svg"); }
+    [class^="icon-"].icon-clock:after,
+    [class*=" icon-"].icon-clock:after {
+      background-image: url("//cdn.uptowncss.com/icons/clock.svg"); }
+      [class^="icon-"].icon-clock:after.disabled:after, [class^="icon-"].icon-clock:after:disabled:after,
+      [class*=" icon-"].icon-clock:after.disabled:after,
+      [class*=" icon-"].icon-clock:after:disabled:after {
+        background-image: url("//cdn.uptowncss.com/icons/clock-disabled.svg"); }
+    [class^="icon-"].icon-close:after,
+    [class*=" icon-"].icon-close:after {
+      background-image: url("//cdn.uptowncss.com/icons/close.svg"); }
+      [class^="icon-"].icon-close:after.disabled:after, [class^="icon-"].icon-close:after:disabled:after,
+      [class*=" icon-"].icon-close:after.disabled:after,
+      [class*=" icon-"].icon-close:after:disabled:after {
+        background-image: url("//cdn.uptowncss.com/icons/close-disabled.svg"); }
+    [class^="icon-"].icon-checkmark:after,
+    [class*=" icon-"].icon-checkmark:after {
+      background-image: url("//cdn.uptowncss.com/icons/checkmark.svg"); }
+      [class^="icon-"].icon-checkmark:after.disabled:after, [class^="icon-"].icon-checkmark:after:disabled:after,
+      [class*=" icon-"].icon-checkmark:after.disabled:after,
+      [class*=" icon-"].icon-checkmark:after:disabled:after {
+        background-image: url("//cdn.uptowncss.com/icons/checkmark-disabled.svg"); }
+    [class^="icon-"].icon-search:after,
+    [class*=" icon-"].icon-search:after {
+      background-image: url("//cdn.uptowncss.com/icons/search.svg"); }
+      [class^="icon-"].icon-search:after.disabled:after, [class^="icon-"].icon-search:after:disabled:after,
+      [class*=" icon-"].icon-search:after.disabled:after,
+      [class*=" icon-"].icon-search:after:disabled:after {
+        background-image: url("//cdn.uptowncss.com/icons/search-disabled.svg"); }
+    [class^="icon-"].icon-flag:after,
+    [class*=" icon-"].icon-flag:after {
+      background-image: url("//cdn.uptowncss.com/icons/flag.svg"); }
+      [class^="icon-"].icon-flag:after.disabled:after, [class^="icon-"].icon-flag:after:disabled:after,
+      [class*=" icon-"].icon-flag:after.disabled:after,
+      [class*=" icon-"].icon-flag:after:disabled:after {
+        background-image: url("//cdn.uptowncss.com/icons/flag-disabled.svg"); }
+    [class^="icon-"].icon-bell:after,
+    [class*=" icon-"].icon-bell:after {
+      background-image: url("//cdn.uptowncss.com/icons/bell.svg"); }
+      [class^="icon-"].icon-bell:after.disabled:after, [class^="icon-"].icon-bell:after:disabled:after,
+      [class*=" icon-"].icon-bell:after.disabled:after,
+      [class*=" icon-"].icon-bell:after:disabled:after {
+        background-image: url("//cdn.uptowncss.com/icons/bell-disabled.svg"); }
+    [class^="icon-"].icon-exclamation:after,
+    [class*=" icon-"].icon-exclamation:after {
+      background-image: url("//cdn.uptowncss.com/icons/exclamation.svg"); }
+      [class^="icon-"].icon-exclamation:after.disabled:after, [class^="icon-"].icon-exclamation:after:disabled:after,
+      [class*=" icon-"].icon-exclamation:after.disabled:after,
+      [class*=" icon-"].icon-exclamation:after:disabled:after {
+        background-image: url("//cdn.uptowncss.com/icons/exclamation-disabled.svg"); }
+    [class^="icon-"].icon-prohibit:after,
+    [class*=" icon-"].icon-prohibit:after {
+      background-image: url("//cdn.uptowncss.com/icons/prohibit.svg"); }
+      [class^="icon-"].icon-prohibit:after.disabled:after, [class^="icon-"].icon-prohibit:after:disabled:after,
+      [class*=" icon-"].icon-prohibit:after.disabled:after,
+      [class*=" icon-"].icon-prohibit:after:disabled:after {
+        background-image: url("//cdn.uptowncss.com/icons/prohibit-disabled.svg"); }
+    [class^="icon-"].icon-question:after,
+    [class*=" icon-"].icon-question:after {
+      background-image: url("//cdn.uptowncss.com/icons/question.svg"); }
+      [class^="icon-"].icon-question:after.disabled:after, [class^="icon-"].icon-question:after:disabled:after,
+      [class*=" icon-"].icon-question:after.disabled:after,
+      [class*=" icon-"].icon-question:after:disabled:after {
+        background-image: url("//cdn.uptowncss.com/icons/question-disabled.svg"); }
+    [class^="icon-"].icon-product:after,
+    [class*=" icon-"].icon-product:after {
+      background-image: url("//cdn.uptowncss.com/icons/product.svg"); }
+      [class^="icon-"].icon-product:after.disabled:after, [class^="icon-"].icon-product:after:disabled:after,
+      [class*=" icon-"].icon-product:after.disabled:after,
+      [class*=" icon-"].icon-product:after:disabled:after {
+        background-image: url("//cdn.uptowncss.com/icons/product-disabled.svg"); }
+    [class^="icon-"].icon-preview:after,
+    [class*=" icon-"].icon-preview:after {
+      background-image: url("//cdn.uptowncss.com/icons/preview.svg"); }
+      [class^="icon-"].icon-preview:after.disabled:after, [class^="icon-"].icon-preview:after:disabled:after,
+      [class*=" icon-"].icon-preview:after.disabled:after,
+      [class*=" icon-"].icon-preview:after:disabled:after {
+        background-image: url("//cdn.uptowncss.com/icons/preview-disabled.svg"); }
+    [class^="icon-"].icon-edit:after,
+    [class*=" icon-"].icon-edit:after {
+      background-image: url("//cdn.uptowncss.com/icons/edit.svg"); }
+      [class^="icon-"].icon-edit:after.disabled:after, [class^="icon-"].icon-edit:after:disabled:after,
+      [class*=" icon-"].icon-edit:after.disabled:after,
+      [class*=" icon-"].icon-edit:after:disabled:after {
+        background-image: url("//cdn.uptowncss.com/icons/edit-disabled.svg"); }
+    [class^="icon-"].icon-addition:after,
+    [class*=" icon-"].icon-addition:after {
+      background-image: url("//cdn.uptowncss.com/icons/addition.svg"); }
+      [class^="icon-"].icon-addition:after.disabled:after, [class^="icon-"].icon-addition:after:disabled:after,
+      [class*=" icon-"].icon-addition:after.disabled:after,
+      [class*=" icon-"].icon-addition:after:disabled:after {
+        background-image: url("//cdn.uptowncss.com/icons/addition-disabled.svg"); }
+    [class^="icon-"].icon-subtraction:after,
+    [class*=" icon-"].icon-subtraction:after {
+      background-image: url("//cdn.uptowncss.com/icons/subtraction.svg"); }
+      [class^="icon-"].icon-subtraction:after.disabled:after, [class^="icon-"].icon-subtraction:after:disabled:after,
+      [class*=" icon-"].icon-subtraction:after.disabled:after,
+      [class*=" icon-"].icon-subtraction:after:disabled:after {
+        background-image: url("//cdn.uptowncss.com/icons/subtraction-disabled.svg"); }
+    [class^="icon-"].icon-calendar:after,
+    [class*=" icon-"].icon-calendar:after {
+      background-image: url("//cdn.uptowncss.com/icons/calendar.svg"); }
+      [class^="icon-"].icon-calendar:after.disabled:after, [class^="icon-"].icon-calendar:after:disabled:after,
+      [class*=" icon-"].icon-calendar:after.disabled:after,
+      [class*=" icon-"].icon-calendar:after:disabled:after {
+        background-image: url("//cdn.uptowncss.com/icons/calendar-disabled.svg"); }
+    [class^="icon-"].icon-add-circle:after,
+    [class*=" icon-"].icon-add-circle:after {
+      background-image: url("//cdn.uptowncss.com/icons/add_circle.svg"); }
+      [class^="icon-"].icon-add-circle:after.disabled:after, [class^="icon-"].icon-add-circle:after:disabled:after,
+      [class*=" icon-"].icon-add-circle:after.disabled:after,
+      [class*=" icon-"].icon-add-circle:after:disabled:after {
+        background-image: url("//cdn.uptowncss.com/icons/add_circle-disabled.svg"); }
+    [class^="icon-"].icon-orders:after,
+    [class*=" icon-"].icon-orders:after {
+      background-image: url("//cdn.uptowncss.com/icons/orders.svg"); }
+      [class^="icon-"].icon-orders:after.disabled:after, [class^="icon-"].icon-orders:after:disabled:after,
+      [class*=" icon-"].icon-orders:after.disabled:after,
+      [class*=" icon-"].icon-orders:after:disabled:after {
+        background-image: url("//cdn.uptowncss.com/icons/orders-disabled.svg"); }
+    [class^="icon-"].icon-globe:after,
+    [class*=" icon-"].icon-globe:after {
+      background-image: url("//cdn.uptowncss.com/icons/globe.svg"); }
+      [class^="icon-"].icon-globe:after.disabled:after, [class^="icon-"].icon-globe:after:disabled:after,
+      [class*=" icon-"].icon-globe:after.disabled:after,
+      [class*=" icon-"].icon-globe:after:disabled:after {
+        background-image: url("//cdn.uptowncss.com/icons/globe-disabled.svg"); }
+    [class^="icon-"].icon-funnel:after,
+    [class*=" icon-"].icon-funnel:after {
+      background-image: url("//cdn.uptowncss.com/icons/funnel.svg"); }
+      [class^="icon-"].icon-funnel:after.disabled:after, [class^="icon-"].icon-funnel:after:disabled:after,
+      [class*=" icon-"].icon-funnel:after.disabled:after,
+      [class*=" icon-"].icon-funnel:after:disabled:after {
+        background-image: url("//cdn.uptowncss.com/icons/funnel-disabled.svg"); }
+    [class^="icon-"].icon-percent:after,
+    [class*=" icon-"].icon-percent:after {
+      background-image: url("//cdn.uptowncss.com/icons/percent.svg"); }
+      [class^="icon-"].icon-percent:after.disabled:after, [class^="icon-"].icon-percent:after:disabled:after,
+      [class*=" icon-"].icon-percent:after.disabled:after,
+      [class*=" icon-"].icon-percent:after:disabled:after {
+        background-image: url("//cdn.uptowncss.com/icons/percent-disabled.svg"); }
+    [class^="icon-"].icon-payment:after,
+    [class*=" icon-"].icon-payment:after {
+      background-image: url("//cdn.uptowncss.com/icons/payment.svg"); }
+      [class^="icon-"].icon-payment:after.disabled:after, [class^="icon-"].icon-payment:after:disabled:after,
+      [class*=" icon-"].icon-payment:after.disabled:after,
+      [class*=" icon-"].icon-payment:after:disabled:after {
+        background-image: url("//cdn.uptowncss.com/icons/payment-disabled.svg"); }
+    [class^="icon-"].icon-discount:after,
+    [class*=" icon-"].icon-discount:after {
+      background-image: url("//cdn.uptowncss.com/icons/discount.svg"); }
+      [class^="icon-"].icon-discount:after.disabled:after, [class^="icon-"].icon-discount:after:disabled:after,
+      [class*=" icon-"].icon-discount:after.disabled:after,
+      [class*=" icon-"].icon-discount:after:disabled:after {
+        background-image: url("//cdn.uptowncss.com/icons/discount-disabled.svg"); }
+    [class^="icon-"].icon-report:after,
+    [class*=" icon-"].icon-report:after {
+      background-image: url("//cdn.uptowncss.com/icons/report.svg"); }
+      [class^="icon-"].icon-report:after.disabled:after, [class^="icon-"].icon-report:after:disabled:after,
+      [class*=" icon-"].icon-report:after.disabled:after,
+      [class*=" icon-"].icon-report:after:disabled:after {
+        background-image: url("//cdn.uptowncss.com/icons/report-disabled.svg"); }
+    [class^="icon-"].icon-customers:after,
+    [class*=" icon-"].icon-customers:after {
+      background-image: url("//cdn.uptowncss.com/icons/customers.svg"); }
+      [class^="icon-"].icon-customers:after.disabled:after, [class^="icon-"].icon-customers:after:disabled:after,
+      [class*=" icon-"].icon-customers:after.disabled:after,
+      [class*=" icon-"].icon-customers:after:disabled:after {
+        background-image: url("//cdn.uptowncss.com/icons/customers-disabled.svg"); }
+    [class^="icon-"].icon-gear:after,
+    [class*=" icon-"].icon-gear:after {
+      background-image: url("//cdn.uptowncss.com/icons/gear.svg"); }
+      [class^="icon-"].icon-gear:after.disabled:after, [class^="icon-"].icon-gear:after:disabled:after,
+      [class*=" icon-"].icon-gear:after.disabled:after,
+      [class*=" icon-"].icon-gear:after:disabled:after {
+        background-image: url("//cdn.uptowncss.com/icons/gear-disabled.svg"); }
+    [class^="icon-"].icon-apps:after,
+    [class*=" icon-"].icon-apps:after {
+      background-image: url("//cdn.uptowncss.com/icons/apps.svg"); }
+      [class^="icon-"].icon-apps:after.disabled:after, [class^="icon-"].icon-apps:after:disabled:after,
+      [class*=" icon-"].icon-apps:after.disabled:after,
+      [class*=" icon-"].icon-apps:after:disabled:after {
+        background-image: url("//cdn.uptowncss.com/icons/apps-disabled.svg"); }
+    [class^="icon-"].icon-themes:after,
+    [class*=" icon-"].icon-themes:after {
+      background-image: url("//cdn.uptowncss.com/icons/themes.svg"); }
+      [class^="icon-"].icon-themes:after.disabled:after, [class^="icon-"].icon-themes:after:disabled:after,
+      [class*=" icon-"].icon-themes:after.disabled:after,
+      [class*=" icon-"].icon-themes:after:disabled:after {
+        background-image: url("//cdn.uptowncss.com/icons/themes-disabled.svg"); }
+    [class^="icon-"].icon-post:after,
+    [class*=" icon-"].icon-post:after {
+      background-image: url("//cdn.uptowncss.com/icons/post.svg"); }
+      [class^="icon-"].icon-post:after.disabled:after, [class^="icon-"].icon-post:after:disabled:after,
+      [class*=" icon-"].icon-post:after.disabled:after,
+      [class*=" icon-"].icon-post:after:disabled:after {
+        background-image: url("//cdn.uptowncss.com/icons/post-disabled.svg"); }
+    [class^="icon-"].icon-pages:after,
+    [class*=" icon-"].icon-pages:after {
+      background-image: url("//cdn.uptowncss.com/icons/pages.svg"); }
+      [class^="icon-"].icon-pages:after.disabled:after, [class^="icon-"].icon-pages:after:disabled:after,
+      [class*=" icon-"].icon-pages:after.disabled:after,
+      [class*=" icon-"].icon-pages:after:disabled:after {
+        background-image: url("//cdn.uptowncss.com/icons/pages-disabled.svg"); }
+    [class^="icon-"].icon-navigation:after,
+    [class*=" icon-"].icon-navigation:after {
+      background-image: url("//cdn.uptowncss.com/icons/navigation.svg"); }
+      [class^="icon-"].icon-navigation:after.disabled:after, [class^="icon-"].icon-navigation:after:disabled:after,
+      [class*=" icon-"].icon-navigation:after.disabled:after,
+      [class*=" icon-"].icon-navigation:after:disabled:after {
+        background-image: url("//cdn.uptowncss.com/icons/navigation-disabled.svg"); }
+    [class^="icon-"].icon-account:after,
+    [class*=" icon-"].icon-account:after {
+      background-image: url("//cdn.uptowncss.com/icons/account.svg"); }
+      [class^="icon-"].icon-account:after.disabled:after, [class^="icon-"].icon-account:after:disabled:after,
+      [class*=" icon-"].icon-account:after.disabled:after,
+      [class*=" icon-"].icon-account:after:disabled:after {
+        background-image: url("//cdn.uptowncss.com/icons/account-disabled.svg"); }
+    [class^="icon-"].icon-folder:after,
+    [class*=" icon-"].icon-folder:after {
+      background-image: url("//cdn.uptowncss.com/icons/folder.svg"); }
+      [class^="icon-"].icon-folder:after.disabled:after, [class^="icon-"].icon-folder:after:disabled:after,
+      [class*=" icon-"].icon-folder:after.disabled:after,
+      [class*=" icon-"].icon-folder:after:disabled:after {
+        background-image: url("//cdn.uptowncss.com/icons/folder-disabled.svg"); }
+    [class^="icon-"].icon-giftcards:after,
+    [class*=" icon-"].icon-giftcards:after {
+      background-image: url("//cdn.uptowncss.com/icons/giftcards.svg"); }
+      [class^="icon-"].icon-giftcards:after.disabled:after, [class^="icon-"].icon-giftcards:after:disabled:after,
+      [class*=" icon-"].icon-giftcards:after.disabled:after,
+      [class*=" icon-"].icon-giftcards:after:disabled:after {
+        background-image: url("//cdn.uptowncss.com/icons/giftcards-disabled.svg"); }
+    [class^="icon-"].icon-cart:after,
+    [class*=" icon-"].icon-cart:after {
+      background-image: url("//cdn.uptowncss.com/icons/cart.svg"); }
+      [class^="icon-"].icon-cart:after.disabled:after, [class^="icon-"].icon-cart:after:disabled:after,
+      [class*=" icon-"].icon-cart:after.disabled:after,
+      [class*=" icon-"].icon-cart:after:disabled:after {
+        background-image: url("//cdn.uptowncss.com/icons/cart-disabled.svg"); }
+    [class^="icon-"].icon-inventory:after,
+    [class*=" icon-"].icon-inventory:after {
+      background-image: url("//cdn.uptowncss.com/icons/inventory.svg"); }
+      [class^="icon-"].icon-inventory:after.disabled:after, [class^="icon-"].icon-inventory:after:disabled:after,
+      [class*=" icon-"].icon-inventory:after.disabled:after,
+      [class*=" icon-"].icon-inventory:after:disabled:after {
+        background-image: url("//cdn.uptowncss.com/icons/inventory-disabled.svg"); }
+    [class^="icon-"].icon-home:after,
+    [class*=" icon-"].icon-home:after {
+      background-image: url("//cdn.uptowncss.com/icons/home.svg"); }
+      [class^="icon-"].icon-home:after.disabled:after, [class^="icon-"].icon-home:after:disabled:after,
+      [class*=" icon-"].icon-home:after.disabled:after,
+      [class*=" icon-"].icon-home:after:disabled:after {
+        background-image: url("//cdn.uptowncss.com/icons/home-disabled.svg"); }
+    [class^="icon-"].icon-collection:after,
+    [class*=" icon-"].icon-collection:after {
+      background-image: url("//cdn.uptowncss.com/icons/collection.svg"); }
+      [class^="icon-"].icon-collection:after.disabled:after, [class^="icon-"].icon-collection:after:disabled:after,
+      [class*=" icon-"].icon-collection:after.disabled:after,
+      [class*=" icon-"].icon-collection:after:disabled:after {
+        background-image: url("//cdn.uptowncss.com/icons/collection-disabled.svg"); }
+    [class^="icon-"].icon-image:after,
+    [class*=" icon-"].icon-image:after {
+      background-image: url("//cdn.uptowncss.com/icons/image.svg"); }
+      [class^="icon-"].icon-image:after.disabled:after, [class^="icon-"].icon-image:after:disabled:after,
+      [class*=" icon-"].icon-image:after.disabled:after,
+      [class*=" icon-"].icon-image:after:disabled:after {
+        background-image: url("//cdn.uptowncss.com/icons/image-disabled.svg"); }
+    [class^="icon-"].icon-paperclip:after,
+    [class*=" icon-"].icon-paperclip:after {
+      background-image: url("//cdn.uptowncss.com/icons/paperclip.svg"); }
+      [class^="icon-"].icon-paperclip:after.disabled:after, [class^="icon-"].icon-paperclip:after:disabled:after,
+      [class*=" icon-"].icon-paperclip:after.disabled:after,
+      [class*=" icon-"].icon-paperclip:after:disabled:after {
+        background-image: url("//cdn.uptowncss.com/icons/paperclip-disabled.svg"); }
+    [class^="icon-"].icon-download:after,
+    [class*=" icon-"].icon-download:after {
+      background-image: url("//cdn.uptowncss.com/icons/download.svg"); }
+      [class^="icon-"].icon-download:after.disabled:after, [class^="icon-"].icon-download:after:disabled:after,
+      [class*=" icon-"].icon-download:after.disabled:after,
+      [class*=" icon-"].icon-download:after:disabled:after {
+        background-image: url("//cdn.uptowncss.com/icons/download-disabled.svg"); }
+    [class^="icon-"].icon-upload:after,
+    [class*=" icon-"].icon-upload:after {
+      background-image: url("//cdn.uptowncss.com/icons/upload.svg"); }
+      [class^="icon-"].icon-upload:after.disabled:after, [class^="icon-"].icon-upload:after:disabled:after,
+      [class*=" icon-"].icon-upload:after.disabled:after,
+      [class*=" icon-"].icon-upload:after:disabled:after {
+        background-image: url("//cdn.uptowncss.com/icons/upload-disabled.svg"); }
+    [class^="icon-"].icon-undo:after,
+    [class*=" icon-"].icon-undo:after {
+      background-image: url("//cdn.uptowncss.com/icons/undo.svg"); }
+      [class^="icon-"].icon-undo:after.disabled:after, [class^="icon-"].icon-undo:after:disabled:after,
+      [class*=" icon-"].icon-undo:after.disabled:after,
+      [class*=" icon-"].icon-undo:after:disabled:after {
+        background-image: url("//cdn.uptowncss.com/icons/undo-disabled.svg"); }
+    [class^="icon-"].icon-redo:after,
+    [class*=" icon-"].icon-redo:after {
+      background-image: url("//cdn.uptowncss.com/icons/redo.svg"); }
+      [class^="icon-"].icon-redo:after.disabled:after, [class^="icon-"].icon-redo:after:disabled:after,
+      [class*=" icon-"].icon-redo:after.disabled:after,
+      [class*=" icon-"].icon-redo:after:disabled:after {
+        background-image: url("//cdn.uptowncss.com/icons/redo-disabled.svg"); }
+    [class^="icon-"].icon-print:after,
+    [class*=" icon-"].icon-print:after {
+      background-image: url("//cdn.uptowncss.com/icons/print.svg"); }
+      [class^="icon-"].icon-print:after.disabled:after, [class^="icon-"].icon-print:after:disabled:after,
+      [class*=" icon-"].icon-print:after.disabled:after,
+      [class*=" icon-"].icon-print:after:disabled:after {
+        background-image: url("//cdn.uptowncss.com/icons/print-disabled.svg"); }
+    [class^="icon-"].icon-export:after,
+    [class*=" icon-"].icon-export:after {
+      background-image: url("//cdn.uptowncss.com/icons/export.svg"); }
+      [class^="icon-"].icon-export:after.disabled:after, [class^="icon-"].icon-export:after:disabled:after,
+      [class*=" icon-"].icon-export:after.disabled:after,
+      [class*=" icon-"].icon-export:after:disabled:after {
+        background-image: url("//cdn.uptowncss.com/icons/export-disabled.svg"); }
+    [class^="icon-"].icon-import:after,
+    [class*=" icon-"].icon-import:after {
+      background-image: url("//cdn.uptowncss.com/icons/import.svg"); }
+      [class^="icon-"].icon-import:after.disabled:after, [class^="icon-"].icon-import:after:disabled:after,
+      [class*=" icon-"].icon-import:after.disabled:after,
+      [class*=" icon-"].icon-import:after:disabled:after {
+        background-image: url("//cdn.uptowncss.com/icons/import-disabled.svg"); }
+    [class^="icon-"].icon-duplicate:after,
+    [class*=" icon-"].icon-duplicate:after {
+      background-image: url("//cdn.uptowncss.com/icons/duplicate.svg"); }
+      [class^="icon-"].icon-duplicate:after.disabled:after, [class^="icon-"].icon-duplicate:after:disabled:after,
+      [class*=" icon-"].icon-duplicate:after.disabled:after,
+      [class*=" icon-"].icon-duplicate:after:disabled:after {
+        background-image: url("//cdn.uptowncss.com/icons/duplicate-disabled.svg"); }
+    [class^="icon-"].icon-share:after,
+    [class*=" icon-"].icon-share:after {
+      background-image: url("//cdn.uptowncss.com/icons/share.svg"); }
+      [class^="icon-"].icon-share:after.disabled:after, [class^="icon-"].icon-share:after:disabled:after,
+      [class*=" icon-"].icon-share:after.disabled:after,
+      [class*=" icon-"].icon-share:after:disabled:after {
+        background-image: url("//cdn.uptowncss.com/icons/share-disabled.svg"); }
+    [class^="icon-"].icon-shipping:after,
+    [class*=" icon-"].icon-shipping:after {
+      background-image: url("//cdn.uptowncss.com/icons/shipping.svg"); }
+      [class^="icon-"].icon-shipping:after.disabled:after, [class^="icon-"].icon-shipping:after:disabled:after,
+      [class*=" icon-"].icon-shipping:after.disabled:after,
+      [class*=" icon-"].icon-shipping:after:disabled:after {
+        background-image: url("//cdn.uptowncss.com/icons/shipping-disabled.svg"); }
+    [class^="icon-"].icon-taxes:after,
+    [class*=" icon-"].icon-taxes:after {
+      background-image: url("//cdn.uptowncss.com/icons/taxes.svg"); }
+      [class^="icon-"].icon-taxes:after.disabled:after, [class^="icon-"].icon-taxes:after:disabled:after,
+      [class*=" icon-"].icon-taxes:after.disabled:after,
+      [class*=" icon-"].icon-taxes:after:disabled:after {
+        background-image: url("//cdn.uptowncss.com/icons/taxes-disabled.svg"); }
+    [class^="icon-"].icon-channels:after,
+    [class*=" icon-"].icon-channels:after {
+      background-image: url("//cdn.uptowncss.com/icons/channels.svg"); }
+      [class^="icon-"].icon-channels:after.disabled:after, [class^="icon-"].icon-channels:after:disabled:after,
+      [class*=" icon-"].icon-channels:after.disabled:after,
+      [class*=" icon-"].icon-channels:after:disabled:after {
+        background-image: url("//cdn.uptowncss.com/icons/channels-disabled.svg"); }
+    [class^="icon-"].icon-credit-card:after,
+    [class*=" icon-"].icon-credit-card:after {
+      background-image: url("//cdn.uptowncss.com/icons/credit_card.svg"); }
+      [class^="icon-"].icon-credit-card:after.disabled:after, [class^="icon-"].icon-credit-card:after:disabled:after,
+      [class*=" icon-"].icon-credit-card:after.disabled:after,
+      [class*=" icon-"].icon-credit-card:after:disabled:after {
+        background-image: url("//cdn.uptowncss.com/icons/credit_card-disabled.svg"); }
+    [class^="icon-"].icon-currency:after,
+    [class*=" icon-"].icon-currency:after {
+      background-image: url("//cdn.uptowncss.com/icons/currency.svg"); }
+      [class^="icon-"].icon-currency:after.disabled:after, [class^="icon-"].icon-currency:after:disabled:after,
+      [class*=" icon-"].icon-currency:after.disabled:after,
+      [class*=" icon-"].icon-currency:after:disabled:after {
+        background-image: url("//cdn.uptowncss.com/icons/currency-disabled.svg"); }
+    [class^="icon-"].icon-email:after,
+    [class*=" icon-"].icon-email:after {
+      background-image: url("//cdn.uptowncss.com/icons/email.svg"); }
+      [class^="icon-"].icon-email:after.disabled:after, [class^="icon-"].icon-email:after:disabled:after,
+      [class*=" icon-"].icon-email:after.disabled:after,
+      [class*=" icon-"].icon-email:after:disabled:after {
+        background-image: url("//cdn.uptowncss.com/icons/email-disabled.svg"); }
+    [class^="icon-"].icon-refresh:after,
+    [class*=" icon-"].icon-refresh:after {
+      background-image: url("//cdn.uptowncss.com/icons/refresh.svg"); }
+      [class^="icon-"].icon-refresh:after.disabled:after, [class^="icon-"].icon-refresh:after:disabled:after,
+      [class*=" icon-"].icon-refresh:after.disabled:after,
+      [class*=" icon-"].icon-refresh:after:disabled:after {
+        background-image: url("//cdn.uptowncss.com/icons/refresh-disabled.svg"); }
+    [class^="icon-"].icon-locked:after,
+    [class*=" icon-"].icon-locked:after {
+      background-image: url("//cdn.uptowncss.com/icons/locked.svg"); }
+      [class^="icon-"].icon-locked:after.disabled:after, [class^="icon-"].icon-locked:after:disabled:after,
+      [class*=" icon-"].icon-locked:after.disabled:after,
+      [class*=" icon-"].icon-locked:after:disabled:after {
+        background-image: url("//cdn.uptowncss.com/icons/locked-disabled.svg"); }
+    [class^="icon-"].icon-social:after,
+    [class*=" icon-"].icon-social:after {
+      background-image: url("//cdn.uptowncss.com/icons/social.svg"); }
+      [class^="icon-"].icon-social:after.disabled:after, [class^="icon-"].icon-social:after:disabled:after,
+      [class*=" icon-"].icon-social:after.disabled:after,
+      [class*=" icon-"].icon-social:after:disabled:after {
+        background-image: url("//cdn.uptowncss.com/icons/social-disabled.svg"); }
+    [class^="icon-"].icon-wide:after,
+    [class*=" icon-"].icon-wide:after {
+      background-image: url("//cdn.uptowncss.com/icons/wide.svg"); }
+      [class^="icon-"].icon-wide:after.disabled:after, [class^="icon-"].icon-wide:after:disabled:after,
+      [class*=" icon-"].icon-wide:after.disabled:after,
+      [class*=" icon-"].icon-wide:after:disabled:after {
+        background-image: url("//cdn.uptowncss.com/icons/wide-disabled.svg"); }
+    [class^="icon-"].icon-narrow:after,
+    [class*=" icon-"].icon-narrow:after {
+      background-image: url("//cdn.uptowncss.com/icons/narrow.svg"); }
+      [class^="icon-"].icon-narrow:after.disabled:after, [class^="icon-"].icon-narrow:after:disabled:after,
+      [class*=" icon-"].icon-narrow:after.disabled:after,
+      [class*=" icon-"].icon-narrow:after:disabled:after {
+        background-image: url("//cdn.uptowncss.com/icons/narrow-disabled.svg"); }
+    [class^="icon-"].icon-move-vertical:after,
+    [class*=" icon-"].icon-move-vertical:after {
+      background-image: url("//cdn.uptowncss.com/icons/move_vertical.svg"); }
+      [class^="icon-"].icon-move-vertical:after.disabled:after, [class^="icon-"].icon-move-vertical:after:disabled:after,
+      [class*=" icon-"].icon-move-vertical:after.disabled:after,
+      [class*=" icon-"].icon-move-vertical:after:disabled:after {
+        background-image: url("//cdn.uptowncss.com/icons/move_vertical-disabled.svg"); }
+    [class^="icon-"].icon-move-horizontal:after,
+    [class*=" icon-"].icon-move-horizontal:after {
+      background-image: url("//cdn.uptowncss.com/icons/move_horizontal.svg"); }
+      [class^="icon-"].icon-move-horizontal:after.disabled:after, [class^="icon-"].icon-move-horizontal:after:disabled:after,
+      [class*=" icon-"].icon-move-horizontal:after.disabled:after,
+      [class*=" icon-"].icon-move-horizontal:after:disabled:after {
+        background-image: url("//cdn.uptowncss.com/icons/move_horizontal-disabled.svg"); }
+    [class^="icon-"].icon-typography:after,
+    [class*=" icon-"].icon-typography:after {
+      background-image: url("//cdn.uptowncss.com/icons/typography.svg"); }
+      [class^="icon-"].icon-typography:after.disabled:after, [class^="icon-"].icon-typography:after:disabled:after,
+      [class*=" icon-"].icon-typography:after.disabled:after,
+      [class*=" icon-"].icon-typography:after:disabled:after {
+        background-image: url("//cdn.uptowncss.com/icons/typography-disabled.svg"); }
+    [class^="icon-"].icon-color:after,
+    [class*=" icon-"].icon-color:after {
+      background-image: url("//cdn.uptowncss.com/icons/color.svg"); }
+      [class^="icon-"].icon-color:after.disabled:after, [class^="icon-"].icon-color:after:disabled:after,
+      [class*=" icon-"].icon-color:after.disabled:after,
+      [class*=" icon-"].icon-color:after:disabled:after {
+        background-image: url("//cdn.uptowncss.com/icons/color-disabled.svg"); }
+    [class^="icon-"].icon-add-section:after,
+    [class*=" icon-"].icon-add-section:after {
+      background-image: url("//cdn.uptowncss.com/icons/add_section.svg"); }
+      [class^="icon-"].icon-add-section:after.disabled:after, [class^="icon-"].icon-add-section:after:disabled:after,
+      [class*=" icon-"].icon-add-section:after.disabled:after,
+      [class*=" icon-"].icon-add-section:after:disabled:after {
+        background-image: url("//cdn.uptowncss.com/icons/add_section-disabled.svg"); }
+    [class^="icon-"].icon-drag-handle:after,
+    [class*=" icon-"].icon-drag-handle:after {
+      background-image: url("//cdn.uptowncss.com/icons/drag_handle.svg"); }
+      [class^="icon-"].icon-drag-handle:after.disabled:after, [class^="icon-"].icon-drag-handle:after:disabled:after,
+      [class*=" icon-"].icon-drag-handle:after.disabled:after,
+      [class*=" icon-"].icon-drag-handle:after:disabled:after {
+        background-image: url("//cdn.uptowncss.com/icons/drag_handle-disabled.svg"); }
+    [class^="icon-"].icon-offsite:after,
+    [class*=" icon-"].icon-offsite:after {
+      background-image: url("//cdn.uptowncss.com/icons/offsite.svg"); }
+      [class^="icon-"].icon-offsite:after.disabled:after, [class^="icon-"].icon-offsite:after:disabled:after,
+      [class*=" icon-"].icon-offsite:after.disabled:after,
+      [class*=" icon-"].icon-offsite:after:disabled:after {
+        background-image: url("//cdn.uptowncss.com/icons/offsite-disabled.svg"); } }
 
 /* Buttons
 –––––––––––––––––––––––––––––––––––––––––––––––––– */

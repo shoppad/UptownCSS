@@ -4,9 +4,11 @@
  * Licensed under MIT (https://github.com/shoppad/UptownCSS/blob/master/LICENSE)
  */
 
+// This path is used when referencing the SVG images.  To load these locally, uncomment the second line.
+$path: "//cdn.uptowncss.com";
+//$path: "../images";
 
 //@import "bourbon";
-
 @import "normalize";
 @import "grid";
 @import "typography";

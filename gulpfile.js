@@ -17,8 +17,7 @@ gulp.task('icons', ['styles'], function() {
 // Styles
 
 var files = [
-  'styles/uptown.scss',
-  'styles/uptown-edge.scss'
+  'styles/uptown.scss'
 ];
 
 gulp.task('styles', function() {

@@ -47,9 +47,9 @@
   @if $format == linked {
     // Linked svgs for Edge
     @if $color == 'rgb(196,205,213)' {
-      background-image: url('../icons/' + $icon-name + '-disabled.svg');
+      background-image: url($path + '/icons/' + $icon-name + '-disabled.svg');
     } @else {
-      background-image: url('../icons/' + $icon-name + '.svg');
+      background-image: url($path + '/icons/' + $icon-name + '.svg');
     }
   } @else {
     // Embedded svgs for all other browsers
