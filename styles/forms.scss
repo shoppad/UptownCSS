@@ -51,7 +51,8 @@ select {
   }
   &[type=search] {
     padding-left: 3.0rem;
-    background-image: icon(search, 'rgb(149,167,183)');
+    @include icon(search, 'rgb(149,167,183)');
+    //background-image: icon(search, 'rgb(149,167,183)');
     background-repeat: no-repeat;
     background-size: 18px 18px; /* IE requires pixels. Using cover/contain/rem values cause blurry edges */
     background-position: top .8rem left .8rem;
@@ -95,7 +96,8 @@ select {
 }
 select {
   padding-right: 3.2rem;
-  background-image: icon(select-arrows, 'rgb(99,115,129)');
+  @include icon(select_arrows, 'rgb(99,115,129)');
+  //background-image: icon(select-arrows, 'rgb(99,115,129)');
   background-size: 21px 21px; /* IE requires pixels. Using cover/contain/rem values cause blurry edges */
   background-repeat: no-repeat;
   background-position: right 0.7rem top 0.7rem;
@@ -106,7 +108,8 @@ select {
     background-image: none;
   }
   &:disabled {
-    background-image: icon(select-arrows, 'rgb(145,158,171)');
+    @include icon(select_arrows, 'rgb(145,158,171)');
+    //background-image: icon(select-arrows, 'rgb(145,158,171)');
     box-shadow: none;
   }
   &::-ms-expand {
@@ -174,12 +177,14 @@ input[type="checkbox"] {
   border-radius: .3rem;
 
   &:disabled:checked:after {
-    background-image: icon(checkmark, 'rgb(196,205,213)');
+    @include icon(checkmark, 'rgb(196,205,213)');
+    //background-image: icon(checkmark, 'rgb(196,205,213)');
   }
   &:checked:after {
     width: 1.2rem;
     height: 1.2rem;
-    background-image: icon(checkmark, 'rgb(92,106,196)');
+    @include icon(checkmark, 'rgb(92,106,196)');
+    //background-image: icon(checkmark, 'rgb(92,106,196)');
     background-repeat: no-repeat;
     background-position: center;
     background-size: 12px 12px; /* IE requires pixels. Using cover/contain/rem values cause blurry edges */

@@ -18,7 +18,8 @@ footer {
       border-radius: 50%;
       background-color: #fff;
       margin-right: 2.4rem;
-      background-image: icon(question, 'rgb(71,193,191)');
+      @include icon(question, 'rgb(71,193,191)');
+      //background-image: icon(question, 'rgb(71,193,191)');
       background-size: 24px 24px; /* IE requires pixels. Using cover/contain/rem values cause blurry edges */
       background-repeat: no-repeat;
       background-position: center;

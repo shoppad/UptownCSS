@@ -20,11 +20,13 @@
     color: #001429;
 
     &.pending {
-      background-image: icon(clock, 'rgb(0,20,41)');
+      @include icon(clock, 'rgb(0,20,41)');
+      //background-image: icon(clock, 'rgb(0,20,41)');
     }
     &.remove a,
     &.collapsable a {
-      background-image: icon(close, 'rgb(0,20,41)');
+      @include icon(close, 'rgb(0,20,41)');
+      //background-image: icon(close, 'rgb(0,20,41)');
     }
   }
   &.green {
@@ -32,11 +34,13 @@
     color: #414F3E;
 
     &.pending {
-      background-image: icon(clock, 'rgb(65,79,62)');
+      @include icon(clock, 'rgb(65,79,62)');
+      //background-image: icon(clock, 'rgb(65,79,62)');
     }
     &.remove a,
     &.collapsable a {
-      background-image: icon(close, 'rgb(65,79,62)');
+      @include icon(close, 'rgb(65,79,62)');
+      //background-image: icon(close, 'rgb(65,79,62)');
     }
   }
   &.yellow {
@@ -44,11 +48,13 @@
     color: #595130;
 
     &.pending {
-      background-image: icon(clock, 'rgb(89,81,48)');
+      @include icon(clock, 'rgb(89,81,48)');
+      //background-image: icon(clock, 'rgb(89,81,48)');
     }
     &.remove a,
     &.collapsable a {
-      background-image: icon(close, 'rgb(89,81,48)');
+      @include icon(close, 'rgb(89,81,48)');
+      //background-image: icon(close, 'rgb(89,81,48)');
     }
   }
   &.red {
@@ -56,11 +62,13 @@
     color: #330101;
 
     &.pending {
-      background-image: icon(clock, 'rgb(51,1,1)');
+      @include icon(clock, 'rgb(51,1,1)');
+      //background-image: icon(clock, 'rgb(51,1,1)');
     }
     &.remove a,
     &.collapsable a {
-      background-image: icon(close, 'rgb(51,1,1)');
+      @include icon(close, 'rgb(51,1,1)');
+      //background-image: icon(close, 'rgb(51,1,1)');
     }
   }
   &.grey {
@@ -68,11 +76,13 @@
     color: #212b36;
 
     &.pending {
-      background-image: icon(clock, 'rgb(33,43,54)');
+      @include icon(clock, 'rgb(33,43,54)');
+      //background-image: icon(clock, 'rgb(33,43,54)');
     }
     &.remove a,
     &.collapsable a {
-      background-image: icon(close, 'rgb(33,43,54)');
+      @include icon(close, 'rgb(33,43,54)');
+      //background-image: icon(close, 'rgb(33,43,54)');
     }
   }
   &.orange {
@@ -80,11 +90,13 @@
     color: #594430;
 
     &.pending {
-      background-image: icon(clock, 'rgb(89,68,48)');
+      @include icon(clock, 'rgb(89,68,48)');
+      //background-image: icon(clock, 'rgb(89,68,48)');
     }
     &.remove a,
     &.collapsable a {
-      background-image: icon(close, 'rgb(89,68,48)');
+      @include icon(close, 'rgb(89,68,48)');
+      //background-image: icon(close, 'rgb(89,68,48)');
     }
   }
   &.remove,
