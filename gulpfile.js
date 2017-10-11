@@ -3,6 +3,8 @@ var jsonImporter = require('node-sass-json-importer');
 var sass = require('gulp-sass');
 var postcss = require('gulp-postcss');
 var autoprefixer = require('autoprefixer');
+var rename = require('gulp-rename');
+var fs = require('fs');
 
 // Icons
 
@@ -26,5 +28,17 @@ gulp.task('styles', function() {
     .pipe(postcss([ autoprefixer() ]))
     .pipe(gulp.dest('css'));
 });
+
+
+// Version-specific css
+gulp.task('release', function() {
+  var json = JSON.parse(fs.readFileSync('./package.json'));
+
+  gulp.src('css/uptown.css')
+    .pipe(rename('uptown-' + json.version + '.css'))
+    .pipe(gulp.dest('css'));
+});
+
+
 
 gulp.task('default', ['styles']);
